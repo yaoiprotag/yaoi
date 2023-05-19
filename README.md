@@ -1,6 +1,6 @@
 ## A Flash Game Archive
 8 Flash Games in Flash format (.swf) have been added
-## Direct Downloads
+## [Click here to view Direct Downloads]
 
 [Original Kick The Buddy](https://n-jramirez.github.io/FlashGames/OG%20kick%20the%20buddy.swf)
 
