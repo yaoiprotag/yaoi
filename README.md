@@ -1,4 +1,6 @@
-### A Flash Game Archive
+## A Flash Game Archive
+
+8 Flash Games in .swf format have been added
 
 ## Direct Downloads
 
