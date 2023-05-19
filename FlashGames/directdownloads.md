@@ -1,5 +1,5 @@
 
-## [Direct Downloads]
+## Direct Downloads
 
 [Original Kick The Buddy](https://n-jramirez.github.io/FlashGames/OG%20kick%20the%20buddy.swf)
 
