@@ -1,79 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	
-	<meta charset="utf-8">
-	
-	<title>Friday Night Funkin'| n-jramirez.github.io</title>
-	
-	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	
-	
-	<link rel="shortcut icon" type="image/png" href="https://28klotlucas2.github.io/Funkin-Html5//favicon.png">
-	
-	
-	<script type="text/javascript" src="https://28klotlucas2.github.io/Funkin-Html5/Funkin.js"></script>
-	
-	<script>
-		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
-		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
-			var meta = document.getElementById ("viewport");
-			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
-		}
-	</script>
-	
-	<style>
-		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-		#openfl-content { background: #000000; width: 100%; height: 100%; }
-		@font-face {
-			font-family: 'Pixel Arial 11 Bold';
-			src: url('https://28klotlucas2.github.io/Funkin-Html5/assets/fonts/pixel.eot?#iefix') format('embedded-opentype'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/assets/fonts/pixel.woff') format('woff'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/assets/fonts/pixel.otf') format('truetype');
-			font-weight: normal;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: 'VCR OSD Mono';
-			src: url('assets/fonts/vcr.eot?#iefix') format('embedded-opentype'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/assets/fonts/vcr.woff') format('woff'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/assets/fonts/vcr.ttf') format('truetype'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/assets/fonts/vcr.svg#VCR%20OSD%20Mono') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: 'Nokia Cellphone FC Small';
-			src: url('https://28klotlucas2.github.io/Funkin-Html5/flixel/fonts/nokiafc22.eot?#iefix') format('embedded-opentype'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/flixel/fonts/nokiafc22.woff') format('woff'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/flixel/fonts/nokiafc22.ttf') format('truetype'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/flixel/fonts/nokiafc22.svg#Nokia%20Cellphone%20FC%20Small') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: 'Monsterrat';
-			src: url('flixel/fonts/monsterrat.eot?#iefix') format('embedded-opentype'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/flixel/fonts/monsterrat.woff') format('woff'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/flixel/fonts/monsterrat.ttf') format('truetype'),
-			url('https://28klotlucas2.github.io/Funkin-Html5/flixel/fonts/monsterrat.svg#Monsterrat') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
+    <title>Home | n-jramirez.github.io</title>
+    <link rel="icon" href="https://n-jramirez.github.io/assets/img/favicon.png" type="image/x-icon">
+    <style>
+            .link {
+        color: blue;
+      }
 
-	</style>
-	
+      .icon {
+        width: 70px;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .featured-game {
+        margin-bottom: 20px;
+      }
+
+      .featured-game img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .featured-game h2 {
+        margin-top: 10px;
+        font-size: 20px;
+      }
+
+      .featured-game p {
+        color: #888;
+        font-size: 15px;
+      }
+
+      .search-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .search-input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 60px;
+        width: 300px;
+      }
+        /* CSS styles for the menu */
+        #menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        #menu a {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            float: left;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        #menu a:hover {
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
-	
-	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
-	
-	<div id="openfl-content"></div>
-	
-	<script type="text/javascript">
-		lime.embed ("Funkin", "openfl-content", 1280, 720, { parameters: {} });
-	</script>
-	
-</body>
+    <div id="menu">
+        <a href="https://n-jramirez.github.io/">Home</a>
+        <a href="https://n-jramirez.github.io/assets/flash-opener/flash-opener.html">Flash Opener</a>
+    </div>
+
+    <!-- Rest of your HTML content goes here -->
+    <header>
+      <h1>Welcome to n-jramirez.github.io!🎮</h1>
+
+      <p>Please give me a ⭐ on my Official GitHub <a href="https://github.com/n-jramirez/n-jramirez.github.io" style="color: aqua;"> Repository.</a>You are currently on "Home" Page</p>
+    </header>
+    <main>
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search for games..."
+          id="searchInput"
+          onkeyup="searchGames()"
+        />
+      </div>
+
+      <div class="featured-game">
+        <img
+          src="https://n-jramirez.github.io/assets/img/World's%20Hardest%20Game.png"
+          alt="World's Hardest Game.png"
+          class="icon"
+        />
+        <h2>World's Hardest Game</h2>
+        <p>
+          Legit the World's Hardest Game, With 30 Levels and infinite deaths.
+          (Flash Game)
+        </p>
+        <a href="https://n-jramirez.github.io/assets/World's%20Hardest%20Game/game.html" class="link"
+          >Click Here To Play</a
+        >
+      </div>
+
+      <div class="featured-game">
+        <img src="https://n-jramirez.github.io/assets/img/slope.jpg" alt="slope.jpg" class="icon" />
+        <h2>Slope 🔥HOT!</h2>
+        <p>Play Slope Game, an endless space run game. Drive a ball in the 3D running game in Slope Game. Easy to controls, high speed, and addictive gameplay.</p>
+        <a href="https://n-jramirez.github.io/assets/Slope/game.html" class="link">Click Here To Play</a>
+      </div>
+
+      <div class="featured-game">
+        <img src="https://n-jramirez.github.io/assets/img/shopping%20cart%20hero.png" alt="shoppingcarthero.png"
+        class="icon" />
+        <h2>Shopping Cart Hero</h2>
+        <p>
+          Shopping Cart Hero is an arcade game that lets you run, jump on your
+          cart and perform combined tricks! (Flash Game)
+        </p>
+        <a href="https://n-jramirez.github.io/assets/Shopping%20Cart%20Hero/game.html" class="link"
+          >Click Here To Play</a
+        >
+      </div>
+    
+      <div class="featured-game">
+        <img src="https://n-jramirez.github.io/assets/img/tunnelrush.jpg" alt="tunnelrush.jpg"
+        class="icon" />
+        <h2>Tunnel Rush</h2>
+        <p>
+Let's join the thrilling adventures in Tunnel Rush, go through colorful kaleidoscopes in this amazing high-speed game, and now it's time to shine!
+        </p>
+        <a href="https://n-jramirez.github.io/assets/Tunnel%20Rush/game.html" class="link"
+          >Click Here To Play</a
+        >
+      </div>
+
+      <div class="featured-game">
+        <img src="https://n-jramirez.github.io/assets/img/1v1lol.webp" alt="1v1lol.webp"
+        class="icon" />
+        <h2>1v1.lol</h2>
+        <p>
+          Discover 1v1, the online building simulator & third person shooting game. Battle royale, build fight, box fight, zone wars and more game modes to enjoy!
+        </p>
+        <a href="https://n-jramirez.github.io/assets/1v1.lol/game.html" class="link"
+          >Click Here To Play</a>
+      </div>
+
+      <div class="featured-game">
+        <img src="https://n-jramirez.github.io/assets/img/amongus.jpg" alt="amongus.jpg"
+        class="icon" />
+        <h2>Among Us</h2>
+        <p>
+          Among Us is a party game of teamwork and betrayal. Crewmates work together to complete tasks before one or more Impostors can kill everyone aboard.
+        </p>
+        <a href="https://n-jramirez.github.io/assets/among%20us/game.html" class="link"
+          >Click Here To Play</a>
+          
+                <div class="featured-game">
+        <img src="https://raw.githubusercontent.com/n-jramirez/n-jramirez.github.io/main/assets/img/Precision-Client.jpeg"
+        class="icon" />
+        <h2>Precision Client [Minecraft]</h2>
+        <p>
+Precision Client is a custom eaglercraft client with QOL features, custom texture packs, and more.
+        </p>
+        <a href="https://n-jramirez.github.io/assets/PrecisionClient/game.html" class="link"
+          >Click Here To Play</a>
+                    
+                <div class="featured-game">
+        <img src="https://raw.githubusercontent.com/n-jramirez/n-jramirez.github.io/main/assets/img/fnf.webp"
+        class="icon" />
+        <h2>Friday Night Funkin'</h2>
+        <p>
+The coolest rhythm game on this website.
+        </p>
+        <a href="https://n-jramirez.github.io/assets/fnf/game.html" class="link"
+          >Click Here To Play</a>
+      
+      <!-- Add more featured games as needed -->
+    </main>
+    <img
+      src="https://n-jramirez.github.io/assets/img/widget.gif"
+      alt="rizz is key"
+      style="position: fixed; top: 50%; left: 5px; transform: translateY(-50%); border-radius: 15px;"
+      
+    />
+    <p
+      style="
+       font-size: small;
+        font-weight: bolder;
+        opacity: 100%;
+        color: white;
+        position: fixed;
+        top: 50%;
+        left: 25px;
+        transform: translateY(-50%);
+      "
+    >Fun Fact: Lucas has no rizz
+    <p style="position: fixed;top: 57.3%; left: 6px; opacity: 0%">Advertisement:</p>
+    <a href="https://github.io/" class="link" style="position: fixed; top: 58.9%; left: 108px; opacity: 0%"
+    >GitHub Pages</a></p>
+    <script>
+      function searchGames() {
+        var input = document.getElementById("searchInput");
+        var filter = input.value.toUpperCase();
+        var games = document.getElementsByClassName("featured-game");
+
+        for (var i = 0; i < games.length; i++) {
+          var title = games[i].getElementsByTagName("h2")[0];
+          var description = games[i].getElementsByTagName("p")[0];
+          var link = games[i].getElementsByTagName("a")[0];
+
+          if (
+            title.innerText.toUpperCase().indexOf(filter) > -1 ||
+            description.innerText.toUpperCase().indexOf(filter) > -1
+          ) {
+            games[i].style.display = "";
+          } else {
+            games[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+  </body>
 </html>
