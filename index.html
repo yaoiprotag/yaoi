@@ -75,6 +75,11 @@
         border: 1px solid #ccc;
         border-radius: 60px;
         width: 300px;
+        transition: width 0.3s ease-in-out;
+      }
+
+      .search-input.focus {
+        width: 500px;
       }
 
       /* CSS styles for the menu */
@@ -98,6 +103,40 @@
         background-color: black;
       }
     </style>
+    <script>
+      function handleSearchInputFocus() {
+        const searchInput = document.getElementById("searchInput");
+        searchInput.classList.add("focus");
+      }
+
+      function handleSearchInputBlur() {
+        const searchInput = document.getElementById("searchInput");
+        searchInput.classList.remove("focus");
+      }
+
+      function searchGames() {
+        const searchInput = document.getElementById("searchInput");
+        const searchTerm = searchInput.value.toLowerCase();
+        const featuredGames = document.getElementsByClassName("featured-game");
+
+        for (let game of featuredGames) {
+          const title = game
+            .getElementsByTagName("h2")[0]
+            .innerText.toLowerCase();
+          const description = game
+            .getElementsByTagName("p")[0]
+            .innerText.toLowerCase();
+          const link = game.getElementsByTagName("a")[0].href;
+
+          if (title.includes(searchTerm) || description.includes(searchTerm)) {
+            game.style.display = "block";
+            game.getElementsByTagName("a")[0].href = link;
+          } else {
+            game.style.display = "none";
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="menu">
@@ -129,7 +168,9 @@
           class="search-input"
           placeholder="Search for games..."
           id="searchInput"
-          onkeyup="searchGames()"
+          onfocus="handleSearchInputFocus()"
+          onblur="handleSearchInputBlur()"
+          oninput="searchGames()"
         />
       </div>
       <div class="featured-game">
@@ -298,16 +339,7 @@
         transform: translateY(-50%);
       "
     >
-      Fun Fact: Lucas has no rizz
+      Advertisment
     </p>
-    <p style="position: fixed; top: 57.3%; left: 6px; opacity: 0%">
-      Advertisement:
-    </p>
-    <a
-      href="https://github.io/"
-      class="link"
-      style="position: fixed; top: 58.9%; left: 108px; opacity: 0%"
-      >GitHub Pages</a
-    >
   </body>
 </html>
