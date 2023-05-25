@@ -1,313 +1,250 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script>
-      window.onload = function () {
-        alert(
-          "NOTICE: We use cookies to store your data for games nothing else; we never collect any personal data. Do you agree?"
-        );
-      };
-    </script>
-    <title>Home | n-jramirez.github.io</title>
-    <link
-      rel="icon"
-      href="https://n-jramirez.github.io/assets/img/favicon.png"
-      type="image/x-icon"
-    />
+<head>
     <style>
-      .link {
-        color: blue;
-      }
+        .link {
+            color: blue;
+        }
 
-      .icon {
-        width: 70px;
-        height: auto;
-        border-radius: 10px;
-      }
+        .icon {
+            width: 70px;
+            height: auto;
+            border-radius: 10px;
+        }
 
-      body {
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url("https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
+        body {
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+        }
 
-      header {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
 
-      h1 {
-        margin: 0;
-      }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
 
-      main {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-      }
+        h1 {
+            margin: 0;
+        }
 
-      .featured-game {
-        margin-bottom: 20px;
-      }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-      .featured-game img {
-        max-width: 100%;
-        height: auto;
-      }
+        .featured-game {
+            margin-bottom: 20px;
+        }
 
-      .featured-game h2 {
-        margin-top: 10px;
-        font-size: 20px;
-        color: #ffffff;
-      }
+        .featured-game img {
+            max-width: 100%;
+            height: auto;
+        }
 
-      .featured-game p {
-        color: #ffffff;
-        font-size: 15px;
-      }
+        .featured-game h2 {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #ffffff;
+        }
 
-      .search-container {
-        text-align: center;
-        margin-bottom: 20px;
-      }
+        .featured-game p {
+            color: #ffffff;
+            font-size: 15px;
+        }
 
-      .search-input {
-        padding: 8px;
-        border: 1px solid #ccc;
-        border-radius: 60px;
-        width: 300px;
-        transition: width 0.3s ease-in-out;
-      }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-      .search-input.focus {
-        width: 500px;
-      }
+        .search-input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 60px;
+            width: 300px;
+            transition: width 0.3s ease-in-out;
+        }
 
-      /* CSS styles for the menu */
-      #menu {
-        background-color: #333;
-        overflow: hidden;
-      }
+        .search-input.focus {
+            width: 500px;
+        }
 
-      #menu a {
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        float: left;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
+        /* CSS styles for the menu */
+        #menu {
+            background-color: #333;
+            overflow: hidden;
+        }
 
-      #menu a:hover {
-        background-color: black;
-      }
+        #menu a {
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            float: left;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        #menu a:hover {
+            background-color: black;
+        }
     </style>
     <script>
-      function handleSearchInputFocus() {
-        const searchInput = document.getElementById("searchInput");
-        searchInput.classList.add("focus");
-      }
-
-      function handleSearchInputBlur() {
-        const searchInput = document.getElementById("searchInput");
-        searchInput.classList.remove("focus");
-      }
-
-      function searchGames() {
-        const searchInput = document.getElementById("searchInput");
-        const searchTerm = searchInput.value.toLowerCase();
-        const featuredGames = document.getElementsByClassName("featured-game");
-
-        for (let game of featuredGames) {
-          const title = game
-            .getElementsByTagName("h2")[0]
-            .innerText.toLowerCase();
-          const description = game
-            .getElementsByTagName("p")[0]
-            .innerText.toLowerCase();
-          const link = game.getElementsByTagName("a")[0].href;
-
-          if (title.includes(searchTerm) || description.includes(searchTerm)) {
-            game.style.display = "block";
-            game.getElementsByTagName("a")[0].href = link;
-          } else {
-            game.style.display = "none";
-          }
+        function handleSearchInputFocus() {
+            const searchInput = document.getElementById("searchInput");
+            searchInput.classList.add("focus");
         }
-      }
+
+        function handleSearchInputBlur() {
+            const searchInput = document.getElementById("searchInput");
+            searchInput.classList.remove("focus");
+        }
+
+        function searchGames() {
+            const searchInput = document.getElementById("searchInput");
+            const searchTerm = searchInput.value.toLowerCase();
+            const featuredGames = document.getElementsByClassName("featured-game");
+
+            for (let game of featuredGames) {
+                const title = game.getElementsByTagName("h2")[0].innerText.toLowerCase();
+                const description = game.getElementsByTagName("p")[0].innerText.toLowerCase();
+                const link = game.getElementsByTagName("a")[0].href;
+
+                if (title.includes(searchTerm) || description.includes(searchTerm)) {
+                    game.style.display = "block";
+                    game.getElementsByTagName("a")[0].href = link;
+                } else {
+                    game.style.display = "none";
+                }
+            }
+        }
     </script>
-  </head>
-  <body>
+</head>
+<body>
     <div id="menu">
-      <a href="https://n-jramirez.github.io/">Home</a>
-      <a href="/assets/flash-opener/flash-opener.html">Flash Opener</a>
+        <a href="https://n-jramirez.github.io/">Home</a>
+        <a href="/assets/flash-opener/flash-opener.html">Flash Opener</a>
     </div>
 
     <!-- Rest of your HTML content goes here -->
     <header>
-      <h1>Welcome to n-jramirez.github.io!🎮</h1>
+        <h1>Welcome to n-jramirez.github.io!🎮</h1>
 
-      <p>
-        Please give me a ⭐ on my Official GitHub
-        <a
-          href="https://github.com/n-jramirez/n-jramirez.github.io"
-          style="color: aqua"
-        >
-          Repository.</a
-        >
-        Please do not snitch to block this websiite, think about how long it
-        took me to make it.
-      </p>
+        <p>
+            Please give me a ⭐ on my Official GitHub
+            <a href="https://github.com/n-jramirez/n-jramirez.github.io" style="color: aqua">Repository.</a>
+            Please do not snitch to block this website, think about how long it took me to make it.
+        </p>
     </header>
     <main>
-      <div class="search-container">
-        <input
-          type="text"
-          class="search-input"
-          placeholder="Search for games..."
-          id="searchInput"
-          onfocus="handleSearchInputFocus()"
-          onblur="handleSearchInputBlur()"
-          oninput="searchGames()"
-        />
-      </div>
-      <div class="featured-game">
-        <img
-          src="/assets/img/World's%20Hardest%20Game.png"
-          alt="World's Hardest Game.png"
-          class="icon"
-        />
-        <h2>World's Hardest Game</h2>
-        <p>
-          Legit the World's Hardest Game, With 30 Levels and infinite deaths.
-          (Flash Game)
-        </p>
-        <a href="/assets/World's%20Hardest%20Game/game.html" class="link"
-          >Click Here To Play</a
-        >
-      </div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search for games..."
+                id="searchInput" onfocus="handleSearchInputFocus()" onblur="handleSearchInputBlur()"
+                oninput="searchGames()" />
+        </div>
+        <div class="featured-game">
+            <img src="/assets/img/World's%20Hardest%20Game.png" alt="World's Hardest Game.png" class="icon" />
+            <h2>World's Hardest Game</h2>
+            <p>
+                Legit the World's Hardest Game, With 30 Levels and infinite deaths.
+                (Flash Game)
+            </p>
+            <a href="/assets/World's%20Hardest%20Game/game.html" class="link">Click Here To Play</a>
+        </div>
 
-      <div class="featured-game">
-        <img src="/assets/img/slope.jpg" alt="slope.jpg" class="icon" />
-        <h2>Slope 🔥HOT!</h2>
-        <p>
-          Play Slope Game, an endless space run game. Drive a ball in the 3D
-          running game in Slope Game. Easy to controls, high speed, and
-          addictive gameplay.
-        </p>
-        <a href="/assets/Slope/game.html" class="link">Click Here To Play</a>
-      </div>
+        <div class="featured-game">
+            <img src="/assets/img/slope.jpg" alt="slope.jpg" class="icon" />
+            <h2>Slope 🔥HOT!</h2>
+            <p>
+                Play Slope Game, an endless space run game. Drive a ball in the 3D
+                running game in Slope Game. Easy to controls, high speed, and
+                addictive gameplay.
+            </p>
+            <a href="/assets/Slope/game.html" class="link">Click Here To Play</a>
+        </div>
 
-      <div class="featured-game">
-        <img
-          src="/assets/img/shopping%20cart%20hero.png"
-          alt="shoppingcarthero.png"
-          class="icon"
-        />
-        <h2>Shopping Cart Hero</h2>
-        <p>
-          Shopping Cart Hero is an arcade game that lets you run, jump on your
-          cart and perform combined tricks! (Flash Game)
-        </p>
-        <a href="/assets/Shopping%20Cart%20Hero/game.html" class="link"
-          >Click Here To Play</a
-        >
-      </div>
+        <div class="featured-game">
+            <img src="/assets/img/shopping%20cart%20hero.png" alt="shoppingcarthero.png" class="icon" />
+            <h2>Shopping Cart Hero</h2>
+            <p>
+                Shopping Cart Hero is an arcade game that lets you run, jump on your
+                cart and perform combined tricks! (Flash Game)
+            </p>
+            <a href="/assets/Shopping%20Cart%20Hero/game.html" class="link">Click Here To Play</a>
+        </div>
 
-      <div class="featured-game">
-        <img
-          src="/assets/img/tunnelrush.jpg"
-          alt="tunnelrush.jpg"
-          class="icon"
-        />
-        <h2>Tunnel Rush</h2>
-        <p>
-          Let's join the thrilling adventures in Tunnel Rush, go through
-          colorful kaleidoscopes in this amazing high-speed game, and now it's
-          time to shine!
-        </p>
-        <a href="/assets/Tunnel%20Rush/game.html" class="link"
-          >Click Here To Play</a
-        >
-      </div>
+        <div class="featured-game">
+            <img src="/assets/img/tunnelrush.jpg" alt="tunnelrush.jpg" class="icon" />
+            <h2>Tunnel Rush</h2>
+            <p>
+                Let's join the thrilling adventures in Tunnel Rush, go through
+                colorful kaleidoscopes in this amazing high-speed game, and now it's
+                time to shine!
+            </p>
+            <a href="/assets/Tunnel%20Rush/game.html" class="link">Click Here To Play</a>
+        </div>
 
-      <div class="featured-game">
-        <img src="/assets/img/1v1lol.webp" alt="1v1lol.webp" class="icon" />
-        <h2>1v1.lol</h2>
-        <p>
-          Discover 1v1, the online building simulator & third person shooting
-          game. Battle royale, build fight, box fight, zone wars and more game
-          modes to enjoy!
-        </p>
-        <a href="assets/1v1.lol/index.html" class="link">Click Here To Play</a>
-      </div>
+        <div class="featured-game">
+            <img src="/assets/img/1v1lol.webp" alt="1v1lol.webp" class="icon" />
+            <h2>1v1.lol</h2>
+            <p>
+                Discover 1v1, the online building simulator & third person shooting
+                game. Battle royale, build fight, box fight, zone wars and more game
+                modes to enjoy!
+            </p>
+            <a href="assets/1v1.lol/index.html" class="link">Click Here To Play</a>
+        </div>
 
-      <div class="featured-game">
-        <img src="/assets/img/amongus.jpg" alt="amongus.jpg" class="icon" />
-        <h2>Among Us</h2>
-        <p>
-          Among Us is a party game of teamwork and betrayal. Crewmates work
-          together to complete tasks before one or more Impostors can kill
-          everyone aboard. Tags: ඞ, Sus, Imposter
-        </p>
-        <a href="/assets/among%20us/game.html" class="link"
-          >Click Here To Play</a
-        >
-      </div>
+        <div class="featured-game">
+            <img src="/assets/img/amongus.jpg" alt="amongus.jpg" class="icon" />
+            <h2>Among Us</h2>
+            <p>
+                Among Us is a party game of teamwork and betrayal. Crewmates work
+                together to complete tasks before one or more Impostors can kill
+                everyone aboard. Tags: ඞ, Sus, Imposter
+            </p>
+            <a href="/assets/among%20us/game.html" class="link">Click Here To Play</a>
+        </div>
 
-      <div class="featured-game">
-        <img src="/assets/img/Precision-Client.jpeg" class="icon" />
-        <h2>Precision Client</h2>
-        <p>
-          Precision Client is a custom eaglercraft client with QOL features,
-          custom texture packs, and more. Tags: Minecraft
-        </p>
-        <a href="/assets/PrecisionClient/compiled/web/" class="link"
-          >Click Here To Play</a
-        >
-      </div>
+        <div class="featured-game">
+            <img src="/assets/img/Precision-Client.jpeg" class="icon" />
+            <h2>Precision Client</h2>
+            <p>
+                Precision Client is a custom eaglercraft client with QOL features,
+                custom texture packs, and more. Tags: Minecraft
+            </p>
+            <a href="/assets/PrecisionClient/compiled/web/" class="link">Click Here To Play</a>
+        </div>
 
-      <div class="featured-game">
-        <img src="/assets/img/fnf.webp" class="icon" />
-        <h2>Friday Night Funkin'</h2>
-        <p>The coolest rhythm game on this website. Tags: fnf</p>
-        <a href="/assets/FNF/game.html" class="link">Click Here To Play</a>
-      </div>
+        <div class="featured-game">
+            <img src="/assets/img/fnf.webp" class="icon" />
+            <h2>Friday Night Funkin'</h2>
+            <p>The coolest rhythm game on this website. Tags: fnf</p>
+            <a href="/assets/FNF/game.html" class="link">Click Here To Play</a>
+        </div>
 
-      <!-- Add more featured games as needed -->
+        <!-- Add more featured games as needed -->
     </main>
-    <img
-      src="https://n-jramirez.github.io/assets/img/widget.gif"
-      alt="rizz is key"
-      style="
-        position: fixed;
-        top: 50%;
-        left: 5px;
-        transform: translateY(-50%);
-        border-radius: 15px;
-      "
-    />
-    <p
-      style="
-        font-size: small;
-        font-weight: bolder;
-        opacity: 100%;
-        color: white;
-        position: fixed;
-        top: 50%;
-        left: 25px;
-        transform: translateY(-50%);
-      "
-    >
-      Soundboard Coming Soon!
-    </p>
-  </body>
+    <img src="https://n-jramirez.github.io/assets/img/widget.gif" alt="rizz is key"
+        style="position: fixed; top: 50%; left: 5px; transform: translateY(-50%); border-radius: 15px;" />
+    <p style="font-size: small; font-weight: bolder; opacity: 100%; color: white; position: fixed; top: 50%; left: 25px; transform: translateY(-50%);">Soundboard Coming Soon!</p>
+</body>
 </html>
