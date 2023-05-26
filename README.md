@@ -1,4 +1,5 @@
-# 🔺 ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED
+# ⚠️IMPORTANT⚠️
+🔺 ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED❗❗
 # Release Count
 It has been 5 days since this GitHub Respository was created.
 # Version 1.2 ⚒️
