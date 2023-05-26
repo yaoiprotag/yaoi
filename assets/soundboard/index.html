@@ -1,85 +1,121 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Soundboard</title>
-  <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      font-family: Calibri, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    h1 {
-      margin-bottom: 20px;
-    }
-
-    .button-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .button {
-      width: 100px;
-      height: 50px;
-      margin: 10px;
-      background-color: #f2f2f2;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-
-    .button:hover {
-      background-color: #ddd;
-    }
-
-    footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #f2f2f2;
-      padding: 10px 0;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <h1>Soundboard</h1>
-
-  <div class="button-container">
-    <button class="button" onclick="playSound('https://n-jramirez.github.io/assets/soundboard/sounds/9+10=21.mp3')">What's 9+10?</button>
-    <button class="button" onclick="playSound('sound1.mp3')">Sound 1</button>
-    <button class="button" onclick="playSound('sound2.mp3')">Sound 2</button>
-    <button class="button" onclick="playSound('sound3.mp3')">Sound 3</button>
-  </div>
-
-  <footer>
-    <button class="button" onclick="stopAllSounds()">Stop All</button>
-  </footer>
-
-  <script>
-    var audioElements = [];
-
-    function playSound(soundFile) {
-      var audio = new Audio(soundFile);
-      audio.play();
-      audioElements.push(audio);
-    }
-
-    function stopAllSounds() {
-      for (var i = 0; i < audioElements.length; i++) {
-        audioElements[i].pause();
-        audioElements[i].currentTime = 0;
+  <head>
+    <title>Soundboard | n-jramirez.github.io</title>
+    <style>
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
       }
-      audioElements = [];
-    }
-  </script>
-</body>
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-family: Calibri, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradientAnimation 15s ease infinite;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .button {
+        width: 120px;
+        height: 50px;
+        margin: 10px;
+        background-color: #f2f2f2;
+        border: 1px solid black;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #ddd;
+      }
+
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: transparent; /* Set background-color to transparent */
+        padding: 10px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Soundboard | n-jramirez.github.io</h1>
+    <p>please don't do this in class it kinda annoying...</p>
+
+    <div class="button-container">
+      <button
+        class="button"
+        onclick="playSound('https://n-jramirez.github.io/assets/soundboard/sounds/vine-boom.mp3')"
+      >
+        Vine Boom
+      </button>
+      <button
+        class="button"
+        onclick="playSound('https://n-jramirez.github.io/assets/soundboard/sounds/dababy-lets-go.mp3')"
+      >
+        Dababy - Lets Go!
+      </button>
+      <button
+        class="button"
+        onclick="playSound('https://n-jramirez.github.io/assets/soundboard/sounds/fortnite-death.mp3')"
+      >
+        OG Fortnite - Knock Sound
+      </button>
+      <button
+        class="button"
+        onclick="playSound('https://n-jramirez.github.io/assets/soundboard/sounds/goofy-yell.mp3')"
+      >
+        Goofy's Scream
+      </button>
+    </div>
+
+    <footer>
+      <button class="button" onclick="stopAllSounds()">Stop all Sounds</button>
+    </footer>
+
+    <script>
+      var audioElements = [];
+
+      function playSound(soundFile) {
+        var audio = new Audio(soundFile);
+        audio.play();
+        audioElements.push(audio);
+      }
+
+      function stopAllSounds() {
+        for (var i = 0; i < audioElements.length; i++) {
+          audioElements[i].pause();
+          audioElements[i].currentTime = 0;
+        }
+        audioElements = [];
+      }
+    </script>
+  </body>
 </html>
