@@ -5,4 +5,4 @@ Version 1.1 Has a homepage, updated menu on all pages. A soundboard with a few s
 # More
 - You Can find Open Source Assets [Here](https://github.com/n-jramirez/Open-Source)
 
-- If you need more contributors on YOUR website you can contact me [Here](Github.com)
+- You can make comments for this website [Here](https://github.com/n-jramirez/n-jramirez.github.io/discussions/1)
