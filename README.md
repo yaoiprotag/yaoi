@@ -1,7 +1,7 @@
 # Release Count
 It has been 5 days since this GitHub Respository was created.
 # Version 1.2 ⚒️
-- [about:blank](about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school.
+- [aboutblank](about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school.
 # More
 - You Can find Open Source Assets [Here](https://github.com/n-jramirez/Open-Source)
 
