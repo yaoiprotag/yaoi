@@ -1,4 +1,4 @@
-# ⚠️Attenion!⚠️
+# ⚠️Attention!⚠️
 ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED
 Don't know how to do it?
 
