@@ -12,6 +12,7 @@
         alert(
           "This site uses cookies for saving game data; not to leak personal data. Do you accept all?"
         );
+        alert("Enable popups on the right of the search bar to avoid the website getting blocked");
       };
     </script>
     <style>
@@ -94,7 +95,7 @@
 
     <!-- Menu -->
 
-<!-- Rest of your HTML content goes here -->
+    <!-- Rest of your HTML content goes here -->
     <header>
       <h1>Welcome to n-jramirez.github.io!🎮</h1>
 
@@ -104,35 +105,36 @@
           href="https://github.com/n-jramirez/n-jramirez.github.io"
           style="color: aqua"
           >Repository.</a
-        > To avoid this website getting blocked enable popups in the search bar on the right
+        >
+        To avoid this website getting blocked enable popups in the search bar on
+        the right
       </p>
-          <!-- Redirect button -->
-<script>
-var url = "https://n-jramirez.github.io";
+      <!-- Redirect button -->
+      <script>
+        var url = "https://n-jramirez.github.io";
 
-if (url) {
-  var win;
+        if (url) {
+          var win;
 
-  window.onload = function() {
-    if (win) {
-      win.focus();
-    } else {
-      win = window.open();
-      win.document.body.style.margin = "0";
-      win.document.body.style.height = "100vh";
-      var iframe = win.document.createElement("iframe");
-      iframe.style.border = "none";
-      iframe.style.width = "100%";
-      iframe.style.height = "100%";
-      iframe.style.margin = "0";
-      iframe.src = url;
-      win.document.body.appendChild(iframe);
-    }
-  };
-}
-
-</script>
-    <!-- Redirect Button -->
+          window.onload = function () {
+            if (win) {
+              win.focus();
+            } else {
+              win = window.open();
+              win.document.body.style.margin = "0";
+              win.document.body.style.height = "100vh";
+              var iframe = win.document.createElement("iframe");
+              iframe.style.border = "none";
+              iframe.style.width = "100%";
+              iframe.style.height = "100%";
+              iframe.style.margin = "0";
+              iframe.src = url;
+              win.document.body.appendChild(iframe);
+            }
+          };
+        }
+      </script>
+      <!-- Redirect Button -->
     </header>
     <img
       src="/assets/img/widget.gif"
