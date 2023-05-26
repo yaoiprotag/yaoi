@@ -6,7 +6,7 @@ Method 1:
 - At the top right, click More. Settings.
 - Click Privacy and security Site Settings. Pop-ups and redirects.
 - Choose the option that you want as your default setting.
-
+![8138730](https://github.com/n-jramirez/n-jramirez.github.io/assets/131909495/42c0e2fc-7a26-41ad-ab8e-c10b4f999b19)
 Method 2:
 # Release Count
 It has been 5 days since this GitHub Respository was created.
