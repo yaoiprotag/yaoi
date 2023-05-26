@@ -1,2 +1,2 @@
-# Hey you!!
-Please do not snitch to block this website if you are at school, think about how long it took me to make it.
+# Open Source Files
+You Can find Open Source Assets (Here)[https://github.com/n-jramirez/Open-Source]
