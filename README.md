@@ -1,5 +1,5 @@
 # ⚠️Attention!⚠️
-**ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED**
+**ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED** Method 2 recommended
 
 Method 1:
 - On your computer, open Chrome.
