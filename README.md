@@ -7,7 +7,7 @@ Method 1:
 - Click Privacy and security Site Settings. Pop-ups and redirects.
 - Choose the option that you want as your default setting.
 Method 2:
-Click on this logo: <img src="https://github.com/n-jramirez/n-jramirez.github.io/assets/131909495/42c0e2fc-7a26-41ad-ab8e-c10b4f999b19"  width="70" height="70"> Pop up blocked
+Click on this logo: <img src="https://github.com/n-jramirez/n-jramirez.github.io/assets/131909495/42c0e2fc-7a26-41ad-ab8e-c10b4f999b19"  width="70" height="70"> Pop up-blocked
 # Release Count
 It has been 5 days since this GitHub Respository was created.
 # Version 1.2 ⚒️
