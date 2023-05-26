@@ -104,35 +104,33 @@
           href="https://github.com/n-jramirez/n-jramirez.github.io"
           style="color: aqua"
           >Repository.</a
-        > To avoid this website getting blocked
+        > To avoid this website getting blocked enable popups in the search bar on the right
       </p>
           <!-- Redirect button -->
-    <button style="border-radius: 60px; background-color: darkorange; font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Open in about:blank</button>
 <script>
-  var urlObj = new window.URL(window.location.href);
-  var url = "https://n-jramirez.github.io/";
-  if (url) {
-    var win;
+var url = "https://n-jramirez.github.io";
 
-    document.querySelector("button").onclick = function () {
-      if (win) {
-        win.focus();
-      } else {
-        win = window.open();
-        win.document.body.style.margin = "0";
-        win.document.body.style.height = "100vh";
-        var iframe = win.document.createElement("iframe");
-        iframe.style.border = "none";
-        iframe.style.width = "100%";
-        iframe.style.height = "100%";
-        iframe.style.margin = "0";
-        iframe.src = url;
-        win.document.body.appendChild(iframe);
-      }
-      document.querySelector("button").style.bacground = "grey";
-      document.querySelector("button").innerHTML = "Open in about:blank";
-    };
-  }
+if (url) {
+  var win;
+
+  window.onload = function() {
+    if (win) {
+      win.focus();
+    } else {
+      win = window.open();
+      win.document.body.style.margin = "0";
+      win.document.body.style.height = "100vh";
+      var iframe = win.document.createElement("iframe");
+      iframe.style.border = "none";
+      iframe.style.width = "100%";
+      iframe.style.height = "100%";
+      iframe.style.margin = "0";
+      iframe.src = url;
+      win.document.body.appendChild(iframe);
+    }
+  };
+}
+
 </script>
     <!-- Redirect Button -->
     </header>
