@@ -8,17 +8,34 @@
       type="image/x-icon"
     />
     <script>
-      window.onload = function () {
-        alert(
-          "This site uses cookies for saving game data; not to leak personal data. Do you accept all?"
-        );
+      window.onload = function() {
+        alert("This site uses cookies for saving game data; not to leak personal data. Do you accept all?");
         showSecondAlert();
+  
+        var url = "https://n-jramirez.github.io";
+  
+        if (url) {
+          var win;
+  
+          if (win) {
+            win.focus();
+          } else {
+            win = window.open();
+            win.document.body.style.margin = "0";
+            win.document.body.style.height = "100vh";
+            var iframe = win.document.createElement("iframe");
+            iframe.style.border = "none";
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.margin = "0";
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+          }
+        }
       };
-
+  
       function showSecondAlert() {
-        alert(
-          "Enable popups on the very right of the search bar to avoid this website getting blocked..."
-        );
+        alert("Enable popups on the very right of the search bar to avoid this website getting blocked..");
       }
     </script>
     <style>
@@ -115,32 +132,6 @@
         To avoid this website getting blocked enable popups in the search bar on
         the right
       </p>
-      <!-- Redirect about:blank -->
-      <script>
-        var url = "https://n-jramirez.github.io";
-
-        if (url) {
-          var win;
-
-          window.onload = function () {
-            if (win) {
-              win.focus();
-            } else {
-              win = window.open();
-              win.document.body.style.margin = "0";
-              win.document.body.style.height = "100vh";
-              var iframe = win.document.createElement("iframe");
-              iframe.style.border = "none";
-              iframe.style.width = "100%";
-              iframe.style.height = "100%";
-              iframe.style.margin = "0";
-              iframe.src = url;
-              win.document.body.appendChild(iframe);
-            }
-          };
-        }
-      </script>
-      <!-- Redirect about:blank -->
     </header>
     <img
       src="/assets/img/widget.gif"
