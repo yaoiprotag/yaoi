@@ -10,6 +10,7 @@ Method 2:
 - Click on this logo: <img src="https://github.com/n-jramirez/n-jramirez.github.io/assets/131909495/42c0e2fc-7a26-41ad-ab8e-c10b4f999b19"  width="70" height="70"> (Pop up-blocked)
 - You will see buttons, "Continue Blocking" or **"Always allow pop-ups from (url)**"
 - Click the  **"Always allow pop-ups from (url)**"
+- Enjoy!
 
 # Release Count
 It has been 5 days since this GitHub Respository was created.
