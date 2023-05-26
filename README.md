@@ -3,9 +3,9 @@ It has been 5 days since this GitHub Respository was created.
 # Version 1.1 ⚒️
 Version 1.1 Has a homepage
 
--updated menu on all pages.
+- updated menu on all pages.
 
--A soundboard with a few sounds [BETA]
+- A soundboard with a few sounds [BETA]
 
 - 10 Games Currently.
 # More
