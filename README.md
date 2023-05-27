@@ -13,7 +13,7 @@
 - [Google Site 2](https://sites.google.com/view/n-jramirez/home)
 - [Google Site 3](https://sites.google.com/view/unflash/home)
 # Release Count
-It has been 6 days since this GitHub Respository was created. Sunday, May 21, 2023 (5/21/2023)
+Sunday, May 21, 2023 (5/21/2023)
 # Version 1.2 ⚒️
 - [about:blank](https://about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school. (**recommended that you do the same**)
 # Other ℹ Information
