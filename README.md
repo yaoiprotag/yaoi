@@ -1,7 +1,7 @@
 # ⚠️Attention! **SCHOOL USERS**⚠️
 **ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED**
 
-- Click on this logo to the left **✰** (*Add page to favorites*): (*Basically Looks Like this ➡️*) 🚫 (Pop up-blocked)
+- Click on a logo to the left **✰** (*Add page to favorites*): (*Basically Looks Like this ➡️*) 🚫 (Pop up-blocked)
 - You will see buttons, "Continue Blocking" or **"Always allow pop-ups from (url)**"
 - Click the  **"Always allow pop-ups from (url)**"
 - Enjoy!
