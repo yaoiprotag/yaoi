@@ -1,4 +1,4 @@
-# ⚠️Attention! SCHOOL USERS⚠️ IF YOU ARENT THEN THIS DOES NOT APPLY TO YOU
+# ⚠️Attention! **SCHOOL USERS**⚠️
 **ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED**
 
 - Click on this logo: <img src="https://user-images.githubusercontent.com/131909495/241337951-42c0e2fc-7a26-41ad-ab8e-c10b4f999b19.png"  width="70" height="70"> (Pop up-blocked)
@@ -16,7 +16,7 @@
 It has been 6 days since this GitHub Respository was created.
 # Version 1.2 ⚒️
 - [about:blank](https://about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school. (**recommended that you do the same**)
-# More
+# More 🛈
 Open source assets coming soon!
 
 - You can make comments for this website [Here](https://github.com/n-jramirez/n-jramirez.github.io/discussions/1)
