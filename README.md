@@ -2,8 +2,8 @@
 **ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED**
 
 - Click on the text/logo to the left **✰** (*Add page to favorites*): (*Basically Looks Like this ➡️*) 🚫 (Pop up-blocked)
-- You will see buttons, "Continue Blocking" or **"Always allow pop-ups from (url)**"
-- Click the  **"Always allow pop-ups from (url)**"
+- You will see buttons, "Continue Blocking" or **"Always allow pop-ups from (*The site your on*)**"
+- Click the  **"Always allow pop-ups from (*The site your on*)**"
 - Enjoy!
 # Links 🔗
 **It is recommended that you do not use the offical GitHub Page since the duplicates are just embeds. The duplicate websites are just so if they get blocked on school computers you can use the backups**
