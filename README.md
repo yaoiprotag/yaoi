@@ -1,7 +1,7 @@
 # ⚠️Attention! **SCHOOL USERS**⚠️
 **ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED**
 
-- Click on this logo: <img src="https://user-images.githubusercontent.com/131909495/241337951-42c0e2fc-7a26-41ad-ab8e-c10b4f999b19.png"  width="70" height="70">📅🚫 (Pop up-blocked)
+- Click on this logo: *Basically Looks Like this*🚫 (Pop up-blocked)
 - You will see buttons, "Continue Blocking" or **"Always allow pop-ups from (url)**"
 - Click the  **"Always allow pop-ups from (url)**"
 - Enjoy!
