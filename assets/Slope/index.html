@@ -1,0 +1,16 @@
+<head>
+  <title>Slope | n-jramirez.github.io</title>
+  <link rel="stylesheet" href="https://n-jramirez.github.io/assets/Slope/TemplateData/style.css">
+  <script src="https://n-jramirez.github.io/assets/Slope/TemplateData/UnityProgress.js"></script>
+  <script src="https://n-jramirez.github.io/assets/Slope/TemplateData/unityloader41.js"></script>
+  
+  <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://n-jramirez.github.io/assets/Slope/build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
+  </script>
+  <link href="https://n-jramirez.github.io/assets/img/slope.jpg" rel="shortcut icon" type="image/x-icon"/>
+</head>
+<body style="margin: 0; overflow: hidden;">
+  <div class="webgl-content">
+      <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
+  </div>
+</body>
