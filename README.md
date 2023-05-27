@@ -24,3 +24,5 @@ It has been 5 days since this GitHub Respository was created.
 
 
 - If you have any bugs or issues you can contact me [Here](https://github.com/n-jramirez/n-jramirez.github.io/issues)
+# Copyright Notice
+Please do not copy this GitHub Respository, If this website is blocked contact me so you/me can deploy it on another site. Copying this without permission is plagiarism and is illegal.
