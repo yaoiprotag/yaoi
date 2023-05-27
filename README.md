@@ -1,6 +1,5 @@
 # ⚠️Attention!⚠️
-**ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED** Method 2 recommended
-BOTH WORK BUT METHOD 2 IS THIS FASTEST
+**ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED** *Method 2 recommended since it is the fastest*
 Method 1:
 - On your computer, open Chrome.
 - At the top right, click More. Settings.
