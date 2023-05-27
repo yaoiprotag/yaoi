@@ -16,7 +16,7 @@
 It has been 6 days since this GitHub Respository was created.
 # Version 1.2 ⚒️
 - [about:blank](https://about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school. (**recommended that you do the same**)
-# More 🛈
+# More 📄
 Open source assets coming soon!
 
 - You can make comments for this website [Here](https://github.com/n-jramirez/n-jramirez.github.io/discussions/1)
