@@ -12,8 +12,6 @@
 - [Google Site 1](https://sites.google.com/view/njramirez/home)
 - [Google Site 2](https://sites.google.com/view/n-jramirez/home)
 - [Google Site 3](https://sites.google.com/view/unflash/home)
-# Release Count
-Sunday, May 21, 2023 (5/21/2023)
 # Version 1.2 ⚒️
 - [about:blank](https://about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school. (**recommended that you do the same**)
 # Other ℹ Information
@@ -23,4 +21,8 @@ Open source assets coming soon!
 
 
 - If you have any bugs or issues you can contact me [Here](https://github.com/n-jramirez/n-jramirez.github.io/issues)
-# Deploying
+# Copyright ©
+Do not copy this website and put your own name on it! If you are trying to make more unblocked links I am making more in the near future ** Feel free to use the game assets or flash games for your own website. Please just give credit**
+
+# Date of release
+Sunday, May 21, 2023 (5/21/2023)
