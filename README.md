@@ -24,7 +24,7 @@ Open source assets coming soon!
 # Copyright ©
 Do not copy this website and put your own name on it! If you are trying to make more unblocked links I am making more in the near future 
 
-**Feel free to use the game assets or flash games for your own website. Please just give credit**
+**Feel free to use the game assets or flash games for your own website. Please just give credit.**
 
 # Date of release
 Sunday, May 21, 2023 (5/21/2023)
