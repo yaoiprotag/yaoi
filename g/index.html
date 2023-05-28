@@ -8,6 +8,17 @@
       type="image/x-icon"
     />
     <style>
+          #scrollBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 30px;
+    }
       .link {
         color: blue;
       }
@@ -161,6 +172,31 @@
         }
       }
     </script>
+  <script>
+    function scrollToBottom() {
+      var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      var totalHeight = document.body.scrollHeight;
+      var duration = 1000; // Duration in milliseconds
+      var startTime = null;
+
+      function scrollAnimation(timestamp) {
+        if (!startTime) startTime = timestamp;
+        var progress = timestamp - startTime;
+        var remainingDistance = totalHeight - currentScroll;
+        var scrollStep = (remainingDistance / duration) * (timestamp - startTime);
+
+        window.scrollTo(0, currentScroll + scrollStep);
+
+        if (currentScroll < totalHeight && progress < duration) {
+          requestAnimationFrame(scrollAnimation);
+        } else {
+          window.scrollTo(0, totalHeight);
+        }
+      }
+
+      requestAnimationFrame(scrollAnimation);
+    }
+  </script>
   </head>
   <body>
     <!-- Menu -->
@@ -186,9 +222,13 @@
           onfocus="handleSearchInputFocus()"
           onblur="handleSearchInputBlur()"
           oninput="searchGames()"
-        />
-        <p id="gameCount" style="font-weight: bolder;">/p>
+        /> 
+        <p id="gameCount" style="font-weight: bolder;"></p>
+
+        <button id="scrollBtn" onclick="scrollToBottom()">⬇️ Go to comments ⬇️</button>
       </div>
+      
+
       <div class="featured-game">
         <img
           src="/assets/img/World's%20Hardest%20Game.png"
@@ -487,7 +527,22 @@
         var featuredGameCount = document.getElementsByClassName("featured-game").length;
       
         // Update the game count
-        document.getElementById("gameCount").innerHTML = "Auto Game Count: " + featuredGameCount + " games (HTML5, Flash, Java, WebGL, Javascrip, etc.)";
+        document.getElementById("gameCount").innerHTML = "Auto Game Count: " + featuredGameCount + " games (HTML5, Flash, Java, WebGL, Javascript, etc.)";
+      </script>
+          <script src="https://giscus.app/client.js"
+          data-repo="n-jramirez/n-jramirez.github.io"
+          data-repo-id="R_kgDOJkyfNg"
+          data-category="General"
+          data-category-id="DIC_kwDOJkyfNs4CWw5R"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="dark"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
       </script>
     </main>
   </body>
