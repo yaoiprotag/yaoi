@@ -12,7 +12,7 @@
 - [Google Site 1](https://sites.google.com/view/njramirez/home)
 - [Google Site 2](https://sites.google.com/view/n-jramirez/home)
 - [Google Site 3](https://sites.google.com/view/unflash/home)
-# Version 1.2 ⚒️
+# Version 1.1 ⚒️
 - [about:blank](https://about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school. (**recommended that you do the same**)
 # Other ℹ Information
 Open source assets coming soon!
