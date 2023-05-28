@@ -8,13 +8,11 @@
 # Links 🔗
 **It is recommended that you do not use the offical GitHub Page since the duplicates are just embeds. The duplicate websites are just so if they get blocked on school computers you can use the backups**
 - You can also just enable popups so the website can be opened with about:blank
-- [Original GitHub Site recommended for at home](https://n-jramirez.github.io/)
+- [Original GitHub Site recommended for at home](https://nate-games.github.io/)
 - [Google Site 1](https://sites.google.com/view/njramirez/home)
 - [Google Site 2](https://sites.google.com/view/n-jramirez/home)
 - [Google Site 3](https://sites.google.com/view/unflash/home)
-# Release Count
-Sunday, May 21, 2023 (5/21/2023)
-# Version 1.2 ⚒️
+# Version 1.1 ⚒️
 - [about:blank](https://about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school. (**recommended that you do the same**)
 # Other ℹ Information
 Open source assets coming soon!
@@ -23,5 +21,13 @@ Open source assets coming soon!
 
 
 - If you have any bugs or issues you can contact me [Here](https://github.com/n-jramirez/n-jramirez.github.io/issues)
-# Copyright Notice
-Please do not copy this GitHub Respository, If this website is blocked contact me so you/me can deploy it on another site. Copying this without permission is plagiarism and is illegal.
+# Copyright ©
+Do not copy this website and put your own name on it! If you are trying to make more unblocked links I am making more in the near future 
+
+**Feel free to use the game assets or flash games for your own website. Please just give credit.**
+
+# Deploying
+Replit is not supported since this GitHub Respository is too large!
+
+# Date of release
+Sunday, May 21, 2023 (5/21/2023)
