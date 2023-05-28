@@ -24,4 +24,4 @@ Open source assets coming soon!
 
 - If you have any bugs or issues you can contact me [Here](https://github.com/n-jramirez/n-jramirez.github.io/issues)
 # Deploying
-[x]
+[ ]
