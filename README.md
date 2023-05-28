@@ -24,12 +24,10 @@ Open source assets coming soon!
 
 - If you have any bugs or issues you can contact me [Here](https://github.com/n-jramirez/n-jramirez.github.io/issues)
 # Copyright ©
-Do not copy this website and put your own name on it! If you are trying to make more unblocked links I am making more in the near future 
+Do not copy this website and put your own name on it! OR it will be reported for ©.
 
 **Feel free to use the game assets or flash games for your own website. Please just give credit.**
 
-# Deploying
-Replit is not supported since this GitHub Respository is too large!
 
 # Date of release
 Sunday, May 21, 2023 (5/21/2023)
