@@ -5,12 +5,27 @@
   <title>Flash Opener | nate-games.github.io</title>
   <script src="https://n-jramirez.github.io/assets/ruffle/ruffle.js"></script>
   <style>
-    /* Apply Calibri font to all text */
-    body {
-      font-family: Calibri, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradientAnimation 15s ease infinite;
+      }
+
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
 
     /* Center-align the container element */
     .container {
@@ -98,8 +113,11 @@
         <a href="/g/">Games</a>
         <a href="/assets/flash-opener/flash-opener.html">Flash Opener</a>
         <a href="/assets/soundboard/index.html">Soundboard</a>
+        <a href="/socials/">Socials</a>
       </div>
     </div>
+
+    <!-- Menu -->
 
   <div class="container">
     <h1>Flash Opener (.swf)</h1>
