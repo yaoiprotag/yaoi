@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>nate-games</title>
-    <link rel="icon" href="favicon" type="image/x-icon">
-    <script src="ruffle js path"></script>
+    <meta charset="UTF-8">
+    <title>Ruffle.rs Example</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000; /* Set the background color to black */
+        }
+        #ruffle-container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <div class="ruffle-container" style="width: 640px; height: 480px;"></div>
+    <div id="ruffle-container"></div>
+    <script src="https://unpkg.com/ruffle-rs@0.3.0/ruffle.js"></script>
     <script>
-        var container = document.querySelector(".ruffle-container");
-        var player = RufflePlayer.newest(container, "swf path");
+        window.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('ruffle-container');
+            const player = RufflePlayer.newest();
+            player.load('/g/whg/whg.swf/');
+            player.style.width = '100%';
+            player.style.height = '100%';
+            container.appendChild(player);
+        });
     </script>
 </body>
 </html>
