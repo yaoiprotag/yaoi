@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ruffle Player Example</title>
+    <script src="/ruffle/assets/ruffle.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Set the dimensions of the player to cover the entire screen.
+        const screenWidth = window.innerWidth;
+        const screenHeight = window.innerHeight;
+
+        // Create the Ruffle player.
+        const rufflePlayer = RufflePlayer.newest();
+        rufflePlayer.stage.width = screenWidth;
+        rufflePlayer.stage.height = screenHeight;
+
+        // Specify the path to the SWF file you want to play.
+        const swfUrl = "g/whg/whg.swf";
+
+        // Load and play the SWF file.
+        rufflePlayer.load(swfUrl).then(() => {
+            rufflePlayer.play();
+        });
+
+        // Append the player to the HTML body.
+        document.body.appendChild(rufflePlayer);
+    </script>
+</body>
+</html>
