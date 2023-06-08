@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HOME | nate-games</title>
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+  <link rel="stylesheet" href="/assets/css/settings.css">
+  <script src="settings.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <button class="menu-item" onclick="window.location.href='/'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
+    </div>
+    <nav class="menu">
+      <button class="menu-item" onclick="window.location.href='/g/'">Games</button>
+      <button class="menu-item" onclick="window.location.href='/ruffle/'">Flash Opener</button>
+      <button class="menu-item" onclick="window.location.href='/s/'">Settings</button>
+    </nav>
+  </header>
+  <div id="content" class="content">
+    <h1>⚙️ Settings:</h1>
+    
+    <!-- Add your settings content here -->
+    <label for="titleInput">Website Title:</label>
+    <input type="text" id="titleInput" placeholder="Enter new title"><br>
+
+    <label for="faviconInput">Favicon URL:</label>
+    <input type="text" id="faviconInput" placeholder="Enter new favicon URL"><br>
+
+    <button onclick="changeSettings()">Apply Settings</button>
+    <button onclick="disableSettings()">Disable Settings</button>
+  </div>
+</body>
+</html>
