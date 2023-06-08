@@ -4,10 +4,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('/assets/img/bg.jpg');
+  background-color: #222;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  color: #fff;
 }
 
 .header {
@@ -61,3 +62,37 @@ h1 {
 button {
   border-radius: 100px;
 }
+
+.game-card {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  width: calc(10% - 20px);
+  height: 250px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.game-card img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+
+.game-card:hover {
+  transform: scale(0.9);
+}
+
+.game-container {
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
