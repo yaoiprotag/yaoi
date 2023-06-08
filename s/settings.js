@@ -31,7 +31,7 @@ function changeSettings() {
   // Change the title and favicon based on the selected preset
   if (selectedPreset === "canvas") {
     newTitle = "Dashboard";
-    newFavicon = "https://www.instructure.com/sites/default/files/image/2021-12/Canvas_logo_single_mark.png";
+    newFavicon = "https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico";
   } else if (selectedPreset === "classes") {
     newTitle = "Classes";
     newFavicon = "https://gointerstellar.xyz/resources/images/favicon/favicon.png";
@@ -53,7 +53,7 @@ function disableSettings() {
   localStorage.removeItem("websiteFavicon");
 
   // Reset to default settings
-  document.title = "HOME | nate-games";
+  document.title = "nate-games";
   var favicon = document.querySelector("link[rel='icon']");
   favicon.href = "/assets/img/favicon.png";
 }
