@@ -1,149 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Home | 𝗡𝗮𝘁𝗲-𝗚𝗮𝗺𝗲𝘀.𝗴𝗶𝘁𝗵𝘂𝗯.𝗶𝗼</title>
-    <link
-      rel="icon"
-      href="/assets/img/favicon.png"
-      type="image/x-icon"
-    />
-    <script>
-      window.onload = function() {
-        alert("This site uses cookies for saving game data; not to leak personal data. Do you accept all?");
-        showSecondAlert();
-  
-        var url = "https://nate-games.github.io";
-  
-        if (url) {
-          var win;
-  
-          if (win) {
-            win.focus();
-          } else {
-            win = window.open();
-            win.document.body.style.margin = "0";
-            win.document.body.style.height = "100vh";
-            var iframe = win.document.createElement("iframe");
-            iframe.style.border = "none";
-            iframe.style.width = "100%";
-            iframe.style.height = "100%";
-            iframe.style.margin = "0";
-            iframe.src = url;
-            win.document.body.appendChild(iframe);
+<head>
+  <title>HOME | nate-games</title>
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+  <link rel="stylesheet" href="/home.css"> 
+      <script>
+        window.onload = function() {
+          alert("This site uses cookies for saving game data; not to leak personal data. Do you accept all?");
+          showSecondAlert();
+    
+          var url = "https://nate-games.github.io";
+    
+          if (url) {
+            var win;
+    
+            if (win) {
+              win.focus();
+            } else {
+              win = window.open();
+              win.document.body.style.margin = "0";
+              win.document.body.style.height = "100vh";
+              var iframe = win.document.createElement("iframe");
+              iframe.style.border = "none";
+              iframe.style.width = "100%";
+              iframe.style.height = "100%";
+              iframe.style.margin = "0";
+              iframe.src = url;
+              win.document.body.appendChild(iframe);
+            }
           }
+        };
+    
+        function showSecondAlert() {
+          alert("Enable popups on the very right of the search bar to avoid this website getting blocked..");
         }
-      };
-  
-      function showSecondAlert() {
-        alert("Enable popups on the very right of the search bar to avoid this website getting blocked..");
-      }
-    </script>
-    <style>
-      .icon {
-        width: 70px;
-        height: auto;
-        border-radius: 10px;
-      }
-
-      body {
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url(/assets/img/home-bg.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      header {
-        background-color: transparent;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
-      h1 {
-        margin: 0;
-      }
-
-      /* CSS styles for the menu */
-      #menu {
-        background-color: #171717;
-        overflow: hidden;
-      }
-
-      #menu a {
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        float: left;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-
-      #menu #home-link {
-        float: left;
-      }
-
-      #menu #right-menu {
-        float: right;
-      }
-
-      #menu #right-menu a {
-        margin-left: 10px;
-      }
-
-      #menu a:hover {
-        background-color: black;
-      }
-
-    </style>
-  </head>
-  <body>
-    <!-- Menu -->
-    <div id="menu">
-      <div id="left-menu">
-        <a href="./">Home</a>
-      </div>
-      <div id="right-menu">
-        <a href="/g/">Games</a>
-        <a href="/ruffle/">Flash Opener</a>
-        <a href="/socials/">Socials</a>
-      </div>
+      </script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <button class="menu-item" onclick="window.location.href='#'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
     </div>
-
-    <!-- Menu -->
-
-    <!-- Rest of your HTML content goes here -->
-    <header>
-      <h1>Welcome to 𝗡𝗮𝘁𝗲-𝗚𝗮𝗺𝗲𝘀.𝗴𝗶𝘁𝗵𝘂𝗯.𝗶𝗼!🎮</h1>
-
-      <p>
-        Please give me a ⭐ on my Official GitHub
-        <a href="https://github.com/nate-games/nate-games.github.io" target="_blank" style="color: aqua">Repository.</a>
-        Follow me here <a href="https://github.com/nate-games" target="_blank" style="color: aqua">(GitHub Profile).</a>
-        Website Corrupted. Only Games Were Affected. Games With Images work perfectly fine!
-      </p>
-      
-      
-    </body>
-    </html>
-    </header>
-    <img
-      src="/assets/img/widget.gif"
-      alt="widget"
-      style="
-        position: fixed;
-        top: 50%;
-        left: 5px;
-        transform: translateY(-50%);
-        border-radius: 15px;
-      "
-    />
-  </body>
+    <nav class="menu">
+      <button class="menu-item" onclick="window.location.href='/g/'">Games</button>
+      <button class="menu-item" onclick="window.location.href='/ruffle/'">Flash Opener</button>
+      <button class="menu-item" onclick="window.location.href='/404.html'">Settings</button>
+    </nav>
+  </header>
+  <div class="content">
+    <h1>𝗡𝗔𝗧𝗘-𝗚𝗔𝗠𝗘𝗦</h1>
+    <p style="color: #fff;">📢 Website Got Corrupted lol</p>
+    <!-- Add more content here -->
+  </div>
+</body>
 </html>
