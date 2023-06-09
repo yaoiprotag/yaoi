@@ -1,7 +1,7 @@
 # [NATE-GAMES](https://nate-games.github.io/)
 
 
-# ⚠️Attention!⚠️
+## ⚠️Attention!⚠️
 **ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED IF YOUR ON A SCHOOL COMPUTER**
 
 - Click on the text/logo to the left **✰** (*Add page to favorites*): (*Basically Looks Like this ➡️*) 🚫 (Pop up-blocked)
@@ -18,5 +18,5 @@
 - [Google Site 3](https://sites.google.com/view/unflash/home)
 
 
-# OTHER
+## OTHER
 View [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) Information, *some actions may cause this to apply to you.* **Please read.**
