@@ -5,5 +5,5 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [SCHOOL USERS 🛈](https://github.com/nate-games/nate-games.github.io/blob/main/SCH-USERS.md)
 
 ## OFFICAL Links 🔗
-- You can enable popups to use nate-games in [about:blank](view-source:about:blank)
+- You can enable popups to use nate-games in [about:blank](https://about:blank/)
 - [nate-games.github.io](https://nate-games.github.io/)
