@@ -14,17 +14,6 @@
 - [Google Site 2](https://sites.google.com/view/n-jramirez/home)
 - [Google Site 3](https://sites.google.com/view/unflash/home)
 
-# OTHER
-
-# Version 1.1 ⚒️
-- [about:blank](https://about:blank) redirect if popups are allowed, used so the website is less likely to get blocked at school. (**recommended that you do the same**)
-# Other ℹ Information
-Open source assets coming soon!
-
-- You can make comments for this website [Here](https://github.com/n-jramirez/n-jramirez.github.io/discussions/1)
-
-
-- If you have any bugs or issues you can contact me [Here](https://github.com/n-jramirez/n-jramirez.github.io/issues)
 # Copyright ©
 Do not copy this website and put your own name on it! OR it will be reported for ©.
 
