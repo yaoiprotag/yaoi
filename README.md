@@ -13,4 +13,4 @@ Please help us make more offical links by forking this respository and deploy it
 
 But make sure to keep it up to date. 👍
 ## How do i get game assets? 📁
-To get game assets. Press the "<> Code" button and then press
+[Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the Respository
