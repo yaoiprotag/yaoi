@@ -1,4 +1,4 @@
-# [nate-games](https://nate-games.github.io/)
+# [NATE-GAMES](https://nate-games.github.io/)
 
 
 # ⚠️Attention!⚠️
