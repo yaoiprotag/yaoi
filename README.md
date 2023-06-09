@@ -15,11 +15,4 @@
 - [Google Site 3](https://sites.google.com/view/unflash/home)
 
 
-# LICENSE
-
-# Copyright ©
-Do not copy this website and put your own name on it! OR it will be reported.
-
-*BUT*
-
-**Feel free to use the game assets or flash games for your own website. As I do not own.**
+# [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md)
