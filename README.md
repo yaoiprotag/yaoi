@@ -11,8 +11,7 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 - You will see buttons, "Continue Blocking" or **"Always allow pop-ups from (*The site your on*)**"
 - Click the  **"Always allow pop-ups from (*The site your on*)**"
 - Enjoy!
-## Links 🔗
-**It is recommended that you do not use the offical GitHub Page since the duplicates are just embeds. The duplicate websites are just so if they get blocked on school computers you can use the backups**
+## OFFICAL Links 🔗
 - You can also just enable popups so the website can be opened with about:blank
 - [Original GitHub Site recommended for at home](https://nate-games.github.io/)
 
