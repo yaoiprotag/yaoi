@@ -15,4 +15,5 @@
 - [Google Site 3](https://sites.google.com/view/unflash/home)
 
 
-# [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md)
+# OTHER
+[LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md)
