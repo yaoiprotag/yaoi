@@ -16,4 +16,4 @@
 
 
 # OTHER
-View [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) Information
+View [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) Information, *some actions may cause this to apply to you.* **Please read.**
