@@ -4,13 +4,6 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 
 [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • SCHOOL USERS 🛈
 
-## FOR SCHOOL USERS
-**ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED IF YOUR ON A SCHOOL COMPUTER**
-
-- Click on the text/logo to the left **✰** (*Add page to favorites*): (*Basically Looks Like this ➡️*) 🚫 (Pop up-blocked)
-- You will see buttons, "Continue Blocking" or **"Always allow pop-ups from (*The site your on*)**"
-- Click the  **"Always allow pop-ups from (*The site your on*)**"
-- Enjoy!
 ## OFFICAL Links 🔗
 - You can also just enable popups so the website can be opened with about:blank
 - [Original GitHub Site recommended for at home](https://nate-games.github.io/)
