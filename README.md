@@ -1,4 +1,4 @@
-# [NATE-GAMES](https://nate-games.github.io/)
+# [NATE-GAMES](https://nate-games.github.io/) ‍👤
 ## About
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administator to block this. :(
 
@@ -8,7 +8,7 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 - You can enable popups to use nate-games in [about:blank](https://about:blank/)
 - [nate-games.github.io](https://nate-games.github.io/)
 - more coming soon...
-## How to help out
-Please help us make more offical links by forking this respository and deploy it with GitHub Pages.
+## Help Out? 🌐
+Please help us make more offical links by forking this respository and deploy it with GitHub Pages.📄
 
 But make sure to keep it up to date. 👍
