@@ -1,4 +1,4 @@
-# [NATE-GAMES](https://nate-games.github.io/) ‍👤
+# [NATE-GAMES](https://nate-games.github.io/) 
 ## About
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administator to block this. :(
 
