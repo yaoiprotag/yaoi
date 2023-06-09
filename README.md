@@ -15,7 +15,7 @@
 - [Google Site 3](https://sites.google.com/view/unflash/home)
 
 # Copyright ©
-Do not copy this website and put your own name on it! OR it will be reported for ©.
+Do not copy this website and put your own name on it! OR it will be reported.
 
 *BUT*
 
