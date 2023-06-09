@@ -12,3 +12,5 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 Please help us make more offical links by forking this respository and deploy it with GitHub Pages.📄
 
 But make sure to keep it up to date. 👍
+## How do i get game assets? 📁
+To get game assets. Press the GREEN 🟢 "CODE" button and then press
