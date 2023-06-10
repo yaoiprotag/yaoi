@@ -7,7 +7,7 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 ## OFFICAL Links 🔗
 - You can enable popups to use nate-games in [about:blank](https://about:blank/)
 - [nate-games.github.io](https://nate-games.github.io/)
-- more coming soon...
+- more coming soon... or make one, steps here [here](##Help Out?-🌐)
 ## Help Out? 🌐
 Please help us make more offical links by forking this respository and deploy it with GitHub Pages.📄
 
