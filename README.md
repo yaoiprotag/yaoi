@@ -2,7 +2,7 @@
 ## About It
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administator to block this. :(
 
-[LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [🛈 Sch Users](##SCHOOL-USERS)
+[LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [🛈 Sch Users](#SCHOOL-USERS)
 
 
 
@@ -21,7 +21,7 @@ But make sure to keep it up to date. 👍
 
 # Other Contents
 
-## SCHOOL-USERS
+# SCHOOL-USERS
 **ENABLE POPUPS FOR THE WEBPAGE TO AVOID THE WEBSITE GETTING BLOCKED IF YOUR ON A SCHOOL COMPUTER**
 
 - Click on the text/logo to the left **✰** (*Add page to favorites*): (*Basically Looks Like this ➡️*) 🚫 (Pop up-blocked)
