@@ -1,5 +1,4 @@
-# [NATE-GAMES](https://nate-games.github.io/)
-## SETTINGS WERE REMOVED :(
+# [NATE-GAMES](https://nate-games.github.io/) 44+ Games
 ## About It
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administator to block this. :(
 
