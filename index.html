@@ -5,15 +5,60 @@
   <title>Dashboard</title>
   <link rel="icon" type="image/png" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
   <link rel="stylesheet" href="/assets/css/home.css">
-  <script>
-    window.onload = function () {
-      alert("This site uses cookies for saving game data; not to leak personal data. Do you accept all?");
-      showSecondAlert();
-    };
-
-    function showSecondAlert() {
-      alert("Do you understand?");
+  <style>
+    .cookies-alert {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 10px;
+      opacity: 0.8;
+      z-index: 9999;
+      width: 300px;
+      text-align: center;
     }
+    .cookies-alert p {
+      margin-bottom: 15px;
+    }
+    .cookies-alert button {
+      background-color: #fff;
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    var cookiesAccepted = false;
+
+    function acceptCookies() {
+      document.getElementById("cookies-alert").style.display = "none";
+      cookiesAccepted = true;
+      enableActions();
+      // Here you can add your logic to handle the user's acceptance of cookies
+    }
+
+    function enableActions() {
+      if (!cookiesAccepted) {
+        var elements = document.getElementsByClassName("menu-item");
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].setAttribute("disabled", "disabled");
+        }
+      } else {
+        var elements = document.getElementsByClassName("menu-item");
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].removeAttribute("disabled");
+        }
+      }
+    }
+
+    window.onload = function () {
+      enableActions();
+    };
   </script>
 </head>
 
@@ -35,5 +80,11 @@
     <p style="color: #fff;">📢 Website Got Corrupted</p>
     <!-- Add more content here -->
   </div>
+
+  <div id="cookies-alert" class="cookies-alert">
+    <p>This site uses cookies for saving game data; not to leak personal data. Do you accept all?</p>
+    <button onclick="acceptCookies()">Accept</button>
+  </div>
 </body>
+
 </html>
