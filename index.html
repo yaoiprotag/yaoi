@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Dashboard</title>
   <link rel="icon" type="image/png" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
-  <link rel="stylesheet" href="/assets/css/home.css"> 
-      <script>
-        window.onload = function() {
-          alert("This site uses cookies for saving game data; not to leak personal data. Do you accept all?");
-          showSecondAlert();
-        };
-    
-        function showSecondAlert() {
-          alert("about:blank was removed. I am working on making it so you can press a button instead of it automatically redirecting you.");
-        }
-      </script>
+  <link rel="stylesheet" href="/assets/css/home.css">
+  <script>
+    window.onload = function () {
+      alert("This site uses cookies for saving game data; not to leak personal data. Do you accept all?");
+      showSecondAlert();
+    };
+
+    function showSecondAlert() {
+      alert("about:blank was removed. I am working on making it so you can press a button instead of it automatically redirecting you.");
+    }
+  </script>
 </head>
+
 <body>
   <header class="header">
     <div class="logo">
       <button class="menu-item" onclick="window.location.href='/'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
     </div>
     <nav class="menu">
+      <button class="menu-item" onclick="window.location.href='/a/'">
+        Apps
+      </button>
       <button class="menu-item" onclick="window.location.href='/g/'">Games</button>
       <button class="menu-item" onclick="window.location.href='/ruffle/'">Flash Opener</button>
     </nav>
@@ -31,4 +36,5 @@
     <!-- Add more content here -->
   </div>
 </body>
+
 </html>
