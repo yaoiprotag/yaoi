@@ -1,83 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>2048 | nate-games</title>
-        <link href="style/main.css" rel="stylesheet" type="text/css" />
-        <link href="style/ai.css" rel="stylesheet" type="text/css" />
-        <link href="/siteBuild/icon/siteIcon.ico" rel="shortcut icon" type="image/x-icon"/>
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="MobileOptimized" content="320" />
-        <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
-        <meta property="og:title" content="2048 game" />
-        <meta property="og:site_name" content="2048 game" />
-        <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!" />
-        <meta property="og:image" content="meta/og_image.png" />
-    </head>
-    <script src="/js/main.js"></script>
-    <body>
-        <div class="container">
-            <div class="heading">
-                <h1 class="title">2048</h1>
-                <div class="score-container">0</div>
-            </div>
-            <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
-            <div class="controls">
-                <div id="hint-button-container">
-                    <button id="hint-button" class="ai-button">Get Hint</button>
-                </div>
-                <div id="feedback-container"></div>
-                <div id="run-button-container">
-                    <button id="run-button" class="ai-button">Auto-run</button>
-                </div>
-            </div>
-            <div class="game-container">
-                <div class="game-message">
-                    <p></p>
-                    <div class="lower">
-                        <a class="retry-button">Try again</a>
-                        <div class="score-sharing"></div>
-                    </div>
-                </div>
-                <div class="grid-container">
-                    <div class="grid-row">
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                    </div>
-                    <div class="grid-row">
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                    </div>
-                    <div class="grid-row">
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                    </div>
-                    <div class="grid-row">
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                        <div class="grid-cell"></div>
-                    </div>
-                </div>
-                <div class="tile-container"></div>
-            </div>
-            <p class="game-explanation"><strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong></p>
-        </div>
 
-        <script src="js/animframe_polyfill.js"></script>
-        <script src="js/hammer.min.js"></script>
-        <script src="js/keyboard_input_manager.js"></script>
-        <script src="js/html_actuator.js"></script>
-        <script src="js/grid.js"></script>
-        <script src="js/tile.js"></script>
-        <script src="js/ai.js"></script>
-        <script src="js/game_manager.js"></script>
-        <script src="js/application.js"></script>
-    </body>
+<head>
+  <title>2048 | nate-games</title>
+  <link rel="icon" type="image/png" href="./game/2048.png" />
+  <link rel="stylesheet" href="/assets/css/games.css" />
+  <style>
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    #embed-container {
+      position: relative;
+      width: 1200px;
+      height: 675px;
+    }
+
+    #embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #fullscreen-button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 9999;
+      border: none;
+      background-color: #000;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 15px;
+    }
+
+    #fullscreen-icon {
+      fill: #fff;
+      stroke: none;
+      width: 15px;
+      height: 15px;
+    }
+
+    .fullscreen-text {
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <button class="menu-item" onclick="window.location.href='/'">
+        𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀
+      </button>
+    </div>
+    <nav class="menu">
+      <button class="menu-item" onclick="window.location.href='/a/'">
+        Apps
+      </button>
+      <button class="menu-item" onclick="window.location.href='/g/'">
+        Games
+      </button>
+      <button class="menu-item" onclick="window.location.href='/ruffle/'">
+        Flash Opener
+      </button>
+    </nav>
+  </header>
+  <button class="back" onclick="window.location.href='/g/'">
+    <-- Back to Games
+  </button>
+  <div class="center-container">
+    <div id="embed-container">
+      <iframe src="./game/index.html" frameborder="0" allowfullscreen></iframe>
+      <button id="fullscreen-button" onclick="toggleFullscreen()">
+        <svg id="fullscreen-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.00002 3.99998H4.00004L4 9M20 8.99999V4L15 3.99997M15 20H20L20 15M4 15L4 20L9.00002 20" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    <div class="fullscreen-text">
+      Fullscreen Glitched? Play <a href="./game/" target="_self" style="color: blue;">Here</a>
+    </div>
+  </div>
+  <script>
+    function toggleFullscreen() {
+      const iframe = document.querySelector('iframe');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      }
+    }
+  </script>
+</body>
+
 </html>
