@@ -1,79 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	
-	<meta charset="utf-8">
-	
-	<title>Friday Night Funkin' 0.2.8 | nate-games</title>
-	
-	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	
-	
-	<link rel="shortcut icon" type="image/png" href="./favicon.png">
-	
-	
-	<script type="text/javascript" src="./Funkin.js"></script>
-	
-	<script>
-		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
-		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
-			var meta = document.getElementById ("viewport");
-			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
-		}
-	</script>
-	
-	<style>
-		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-		#openfl-content { background: #000000; width: 100%; height: 100%; }
-		@font-face {
-			font-family: 'Pixel Arial 11 Bold';
-			src: url('assets/fonts/pixel.eot?#iefix') format('embedded-opentype'),
-			url('assets/fonts/pixel.woff') format('woff'),
-			url('assets/fonts/pixel.otf') format('truetype');
-			font-weight: normal;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: 'VCR OSD Mono';
-			src: url('assets/fonts/vcr.eot?#iefix') format('embedded-opentype'),
-			url('assets/fonts/vcr.woff') format('woff'),
-			url('assets/fonts/vcr.ttf') format('truetype'),
-			url('assets/fonts/vcr.svg#VCR%20OSD%20Mono') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: 'Nokia Cellphone FC Small';
-			src: url('flixel/fonts/nokiafc22.eot?#iefix') format('embedded-opentype'),
-			url('flixel/fonts/nokiafc22.woff') format('woff'),
-			url('flixel/fonts/nokiafc22.ttf') format('truetype'),
-			url('flixel/fonts/nokiafc22.svg#Nokia%20Cellphone%20FC%20Small') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: 'Monsterrat';
-			src: url('flixel/fonts/monsterrat.eot?#iefix') format('embedded-opentype'),
-			url('flixel/fonts/monsterrat.woff') format('woff'),
-			url('flixel/fonts/monsterrat.ttf') format('truetype'),
-			url('flixel/fonts/monsterrat.svg#Monsterrat') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
+<html>
 
-	</style>
-	
+<head>
+  <title>Friday Night Funkin' | nate-games</title>
+  <link rel="icon" type="image/png" href="./game/fnf.avif" />
+  <link rel="stylesheet" href="/assets/css/games.css" />
+  <style>
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    #embed-container {
+      position: relative;
+      width: 1200px;
+      height: 675px;
+    }
+
+    #embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #fullscreen-button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 9999;
+      border: none;
+      background-color: #000;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 15px;
+    }
+
+    #fullscreen-icon {
+      fill: #fff;
+      stroke: none;
+      width: 15px;
+      height: 15px;
+    }
+
+    .fullscreen-text {
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
 </head>
+
 <body>
-	
-	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
-	
-	<div id="openfl-content"></div>
-	
-	<script type="text/javascript">
-		lime.embed ("Funkin", "openfl-content", 1280, 720, { parameters: {} });
-	</script>
-	
+  <header class="header">
+    <div class="logo">
+      <button class="menu-item" onclick="window.location.href='/'">
+        𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀
+      </button>
+    </div>
+    <nav class="menu">
+      <button class="menu-item" onclick="window.location.href='/a/'">
+        Apps
+      </button>
+      <button class="menu-item" onclick="window.location.href='/g/'">
+        Games
+      </button>
+      <button class="menu-item" onclick="window.location.href='/ruffle/'">
+        Flash Opener
+      </button>
+    </nav>
+  </header>
+  <button class="back" onclick="window.location.href='/g/'">
+    <-- Back to Games
+  </button>
+  <div class="center-container">
+    <div id="embed-container">
+      <iframe src="./game/index.html" frameborder="0" allowfullscreen></iframe>
+      <button id="fullscreen-button" onclick="toggleFullscreen()">
+        <svg id="fullscreen-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.00002 3.99998H4.00004L4 9M20 8.99999V4L15 3.99997M15 20H20L20 15M4 15L4 20L9.00002 20" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    <div class="fullscreen-text">
+      Fullscreen Glitched? Play <a href="./game/" target="_self" style="color: blue;">Here</a>
+    </div>
+  </div>
+  <script>
+    function toggleFullscreen() {
+      const iframe = document.querySelector('iframe');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      }
+    }
+  </script>
 </body>
+
 </html>
