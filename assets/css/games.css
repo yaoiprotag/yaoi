@@ -96,3 +96,20 @@ button {
   display: table;
   clear: both;
 }
+
+
+.back {
+  background-color: #383838;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back:hover {
+  background-color: #000;
+  color: #fff;
+}
