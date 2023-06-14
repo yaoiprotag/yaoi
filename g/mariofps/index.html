@@ -2,6 +2,8 @@
 <html>
 
 <head>
+  <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
   <title>Mario FPS | nate-games</title>
   <link rel="icon" type="image/png" href="./game/splash.jpg" />
   <link rel="stylesheet" href="/assets/css/games.css" />
@@ -74,38 +76,44 @@
     </nav>
   </header>
   <button class="back" onclick="window.location.href='/g/'">
-    <-- Back to Games
-  </button>
-  <div class="center-container">
-    <div id="embed-container">
-      <iframe src="./game/index.html" frameborder="0" allowfullscreen></iframe>
-      <button id="fullscreen-button" onclick="toggleFullscreen()">
-        <svg id="fullscreen-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.00002 3.99998H4.00004L4 9M20 8.99999V4L15 3.99997M15 20H20L20 15M4 15L4 20L9.00002 20" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-    </div>
-    <div class="fullscreen-text">
-      Fullscreen Glitched? Play <a href="./game/" target="_self" style="color: blue;">Here</a>
-    </div>
-    <div class="fullscreen-text">
-      Mario FPS is inspired by "DOOM (1993)", View the <a href="https://en.wikipedia.org/wiki/Doom_%281993_video_game%29" target="_self" style="color: blue;">Wiki.</a>
-    </div>
-  </div>
-  <script>
-    function toggleFullscreen() {
-      const iframe = document.querySelector('iframe');
-      if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-      } else if (iframe.mozRequestFullScreen) {
-        iframe.mozRequestFullScreen();
-      } else if (iframe.webkitRequestFullscreen) {
-        iframe.webkitRequestFullscreen();
-      } else if (iframe.msRequestFullscreen) {
-        iframe.msRequestFullscreen();
-      }
-    }
-  </script>
+    <-- Back to Games </button>
+      <div class="center-container">
+        <div id="embed-container">
+          <iframe src="./game/index.html" frameborder="0" allowfullscreen></iframe>
+          <button id="fullscreen-button" onclick="toggleFullscreen()">
+            <svg id="fullscreen-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.00002 3.99998H4.00004L4 9M20 8.99999V4L15 3.99997M15 20H20L20 15M4 15L4 20L9.00002 20"
+                stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="fullscreen-text">
+          Mario FPS is inspired by "DOOM (1993)", View the <a
+            href="https://en.wikipedia.org/wiki/Doom_%281993_video_game%29" target="_self"
+            style="color: blue;">Wiki.</a>
+        </div>
+        <div class="fullscreen-text">
+        If the Game isnt working it probably isn't supported by your browser or GitHub pages itself, you will have to
+        download it and run it locally!
+      </div>
+        <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="./mariofps.zip" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download buttons/github-buttons on GitHub">Download</a>
+      </div>
+      </div>
+      <script>
+        function toggleFullscreen() {
+          const iframe = document.querySelector('iframe');
+          if (iframe.requestFullscreen) {
+            iframe.requestFullscreen();
+          } else if (iframe.mozRequestFullScreen) {
+            iframe.mozRequestFullScreen();
+          } else if (iframe.webkitRequestFullscreen) {
+            iframe.webkitRequestFullscreen();
+          } else if (iframe.msRequestFullscreen) {
+            iframe.msRequestFullscreen();
+          }
+        }
+      </script>
 </body>
 
 </html>
