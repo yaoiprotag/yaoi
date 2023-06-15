@@ -15,6 +15,6 @@ I am accepting contributors, to help out. Show off your skills and tell me about
 - [7zip Download](https://www.7-zip.org/)
 - [Winrar Download](https://www.win-rar.com/download.html?&L=0)
 # Game Sources <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="40" style="vertical-align: middle;">
-The game sources were mostly got from Bluemaxima's Flashpoint. This is highly recommended for making your own unblocked game site.
+The game sources were mostly got from Bluemaxima's Flashpoint <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="40" style="vertical-align: middle;">. This is highly recommended for making your own unblocked game site.
 [Download](https://bluemaxima.org/flashpoint/)
 
