@@ -12,7 +12,7 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 ## OFFICAL Links 🔗
 - [OFFICAL link](https://nate-games.github.io/)
 - View all on this Google Doc + more information, [Here](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
-## Game assets.
+# Game assets <img src="https://static.wikia.nocookie.net/logopedia/images/a/a7/File_Explorer_2019.png/revision/latest?cb=20211010230212" width="40" style="vertical-align: middle;">
 [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, winrar, or Build-in, etc.
 - [7zip Download](https://www.7-zip.org/)
 - [Winrar Download](https://www.win-rar.com/download.html?&L=0)
