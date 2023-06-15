@@ -1,4 +1,4 @@
-# GPL 3.0 License
+# GPL 3.0 License <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/GPLv3_Logo.svg" width="40" style="vertical-align: middle;">
 
 ## Copyright (c) 2023 Nate-Games
 
