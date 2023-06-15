@@ -5,7 +5,7 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 
 ## Help out
 
-- How to add a Game: To add a game to this website, fork this repo add a game in the /g/ directory. And submit a pull request. learn more [Here](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+- How to add a Game: To add a game to this website, fork this repo add a game in the /g/ directory. Go to the "Pull requests" page and press "New pull request". I will go over it to verify your changes, and your game will be added to the website! Learn more [Here](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
 
 [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [🛈](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
 
