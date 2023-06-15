@@ -1,5 +1,5 @@
 # [NATE-GAMES](https://nate-games.github.io/)
-📢: I spent 10+ STRAIGHT Hours *compiliing* Undertales Source Code, Go Check it out! [nate-games.github.io/g/Undertale/](https://nate-games.github.io/g/Undertale/)
+📢: I spent 10+ Hours *compiliing* Undertales Source Code, Go Check it out! [nate-games.github.io/g/Undertale/](https://nate-games.github.io/g/Undertale/)
 ## About It
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administator to block this. :(
 
