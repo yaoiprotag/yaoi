@@ -10,11 +10,11 @@ I am accepting contributors, to help out. Show off your skills and tell me about
 ## OFFICAL Links 🔗
 - [OFFICAL link](https://nate-games.github.io/)
 - View all on this Google Doc + more information, [Here](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
-## Game assets. ![logo.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png)
+## Game assets.
 [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, winrar, or Build-in, etc.
 - [7zip Download](https://www.7-zip.org/)
 - [Winrar Download](https://www.win-rar.com/download.html?&L=0)
-# Game Sources
+# Game Sources <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="500">
 The game sources were mostly got from Bluemaxima's Flashpoint. This is highly recommended for making your own unblocked game site.
 [Download](https://bluemaxima.org/flashpoint/)
 
