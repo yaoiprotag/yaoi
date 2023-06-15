@@ -4,16 +4,12 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 
 [LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [🛈 Sch Users](#SCHOOL-USERS)
 
-
-
-
-# Main Contents
 ## OFFICAL Links 🔗
-- [nate-games.github.io](https://nate-games.github.io/)
-- If you want more, Fork this 
-But make sure to keep it up to date. 👍
-## How to compile the game assets.
-[Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the Respository extract the zip file 📁 and go to FOLDERNAME/g/ then delete the **index.html** in the directory 🔽  the leftover folders are all the game assets in this respository.
+- [Offical nate-games.github.io](https://nate-games.github.io/)
+- View all at the Google Doc, [Here](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
+- If you want more, Fork this and deploy with GitHub Pages, please
+## Game assets.
+[Download](https://github.com/nate-games/nate-game-assets/archive/refs/heads/main.zip) the files from [nate-game assets](https://github.com/nate-games/nate-game-assets) then extract the zip file 📁
 
 # Other Contents
 
