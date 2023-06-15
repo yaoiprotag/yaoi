@@ -2,8 +2,7 @@
 <html>
 
 <head>
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script async defer src="/assets/js/buttons.js"></script>
   <title>Dashboard</title>
   <link rel="icon" type="image/png" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
   <link rel="stylesheet" href="/assets/css/home.css">
@@ -43,24 +42,6 @@
       enableActions();
       // Here you can add your logic to handle the user's acceptance of cookies
     }
-
-    function enableActions() {
-      if (!cookiesAccepted) {
-        var elements = document.getElementsByClassName("menu-item");
-        for (var i = 0; i < elements.length; i++) {
-          elements[i].setAttribute("disabled", "disabled");
-        }
-      } else {
-        var elements = document.getElementsByClassName("menu-item");
-        for (var i = 0; i < elements.length; i++) {
-          elements[i].removeAttribute("disabled");
-        }
-      }
-    }
-
-    window.onload = function () {
-      enableActions();
-    };
   </script>
 </head>
 
@@ -80,16 +61,14 @@
   <div class="content">
     <h1>𝗡𝗔𝗧𝗘-𝗚𝗔𝗠𝗘𝗦</h1>
     <p style="color: #fff;">📢: I spent 10 Hours getting Undertales Source Code, Go Check it out!</p>
-    <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/nate-games/nate-games.github.io" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star nate-games/nate-games.github.io on GitHub">Star me!</a>
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/nate-games/nate-games.github.io/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork nate-games/nate-games.github.io on GitHub">Fork me!</a>
-    <!-- Add more content here -->
+<!-- BUTTONS -->
+<a class="github-button" href="https://github.com/nate-games/nate-games.github.io" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star nate-games/nate-games.github.io on GitHub">Star</a>
+<a class="github-button" href="https://github.com/nate-games/nate-games.github.io/fork" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork nate-games/nate-games.github.io on GitHub">Fork</a>
   </div>
 
   <div id="cookies-alert" class="cookies-alert">
-    <p>This site uses cookies for saving game data; not to leak personal data. PS. Not accepting will remove the ability to go to games, apps, flash-opener, etc.!</p>
-    <button onclick="acceptCookies()">Accept</button>
+    <p>This site uses cookies for saving game data; not for leaking personal data.</p>
+    <button onclick="acceptCookies()">Accept All</button>
   </div>
 </body>
 
