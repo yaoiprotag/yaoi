@@ -6,8 +6,7 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 
 ## OFFICAL Links 🔗
 - [Offical nate-games.github.io](https://nate-games.github.io/)
-- View all on this Google Doc, [Here](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
-- If you want more, Fork this and deploy with GitHub Pages, please
+- View all on this Google Doc + more information, [Here](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
 ## Game assets.
 [Download](https://github.com/nate-games/nate-game-assets/archive/refs/heads/main.zip) the files from [nate-game assets](https://github.com/nate-games/nate-game-assets) then extract the zip file 📁
 
