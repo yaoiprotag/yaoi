@@ -3,7 +3,7 @@
 ## About It
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administator to block this. :(
 
-[LICENSE](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE) • [🛈](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
+[LICENSE.MD](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [🛈](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
 
 ## Help out
 
