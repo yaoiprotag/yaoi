@@ -16,4 +16,4 @@ The GNU General Public License (GPL) version 3.0 is a widely used free software 
 
 6. Web applications: The GPL 3.0 addresses the use of software over a network (e.g., web applications) by requiring that if you modify GPL-licensed software and make it available as a service, you must provide the modified source code to the users.
 
-Note: that this is a summary of the license and the entire can be found [Here](https://www.gnu.org/licenses/gpl-3.0.en.html)
+Please 📝 Note: that this is a summary of the license and the entire can be found [Here](https://www.gnu.org/licenses/gpl-3.0.en.html)
