@@ -1,6 +1,6 @@
 GPL 3.0 License
 
-Copyright (c) 2023 Nate-Games
+# Copyright (c) 2023 Nate-Games
 
 The GNU General Public License (GPL) version 3.0 is a widely used free software license that aims to protect users' freedom to use, modify, and distribute software. Here's a summary of the key aspects of the GPL 3.0:
 
