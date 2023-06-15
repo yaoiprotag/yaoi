@@ -14,7 +14,7 @@ I am accepting contributors, to help out. Show off your skills and tell me about
 [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, winrar, or Build-in, etc.
 - [7zip Download](https://www.7-zip.org/)
 - [Winrar Download](https://www.win-rar.com/download.html?&L=0)
-# Game Sources <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="200">
+# Game Sources <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="50">
 The game sources were mostly got from Bluemaxima's Flashpoint. This is highly recommended for making your own unblocked game site.
 [Download](https://bluemaxima.org/flashpoint/)
 
