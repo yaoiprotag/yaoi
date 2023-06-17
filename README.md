@@ -1,4 +1,4 @@
-# [NATE-GAMES](https://nate-games.github.io/) <img src="https://nate-games.github.io/assets/img/favicon.png" width="40" style="vertical-align: middle;"> 58 apps
+# [NATE-GAMES](https://nate-games.github.io/) <img src="https://nate-games.github.io/assets/img/favicon.png" width="40" style="vertical-align: middle;">
 📢: I spent 10+ Hours compiling Undertales Source Code, Go Check it out! [nate-games.github.io/g/Undertale/](https://nate-games.github.io/g/Undertale/)
 ## About It
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administator to block this. :(
