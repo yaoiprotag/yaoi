@@ -11,7 +11,7 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 
 ## OFFICAL Links 🔗
 - [OFFICAL link](https://nate-games.github.io/)
-- View all links on this [Doc](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing) and Submit the nate-games forked links [Here](https://nate-games.github.io/o/%F0%9F%94%97sub/).
+- View all links on this, you can also find details on how to fork nate-games as a GitHub Page. [View](https://nate-games.github.io/o/%F0%9F%94%97sub/info.html) and Submit your links [Here](https://nate-games.github.io/o/%F0%9F%94%97sub/).
 # Game assets <img src="https://static.wikia.nocookie.net/logopedia/images/a/a7/File_Explorer_2019.png/revision/latest?cb=20211010230212" width="40" style="vertical-align: middle;">
 [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, winrar, or Build-in, etc.
 - [7zip Download](https://www.7-zip.org/)
