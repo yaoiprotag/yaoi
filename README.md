@@ -1,5 +1,5 @@
 # [NATE-GAMES](https://nate-games.github.io/) <img src="https://nate-games.github.io/0/assets/img/favicon.png" width="40" style="vertical-align: middle;">
-📢: Updates and Announcements are posted here: Working on making my own Unity game.
+📢: Updates and Announcements are posted here: Working on making my own Unity game. <img src="https://assets.stickpng.com/images/62e131df7fe3599fdd46ecb3.png" width="20" style="vertical-align: middle;">
 ## About It
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administrator to block this. The website's look design was inspired by [Interstellar](https://github.com/interstellarnetwork/interstellar)
 
