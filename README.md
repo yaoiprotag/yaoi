@@ -1,5 +1,5 @@
 # [NATE-GAMES](https://nate-games.github.io/) <img src="https://nate-games.github.io/0/assets/img/favicon.png" width="40" style="vertical-align: middle;">
-📢: 80+ games
+📢: 90+ games/apps. Random fact: Did you know the homepage used to be the games page?
 ## About It
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administrator to block this. The website's look design was inspired by [Interstellar](https://github.com/interstellarnetwork/interstellar)
 
