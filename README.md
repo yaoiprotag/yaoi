@@ -22,9 +22,10 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 The game sources were mostly got from Bluemaxima's Flashpoint <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="20" style="vertical-align: middle;">. This is highly recommended for making your own unblocked game site.
 [Download](https://bluemaxima.org/flashpoint/)
 
-# Deployment
-## Free services
-Fork repo, then follow the given steps on Netlify. Keep the GitHub fork up to date and Netlify will automatically update the site.
-
+# Deploying
+If you do this, I really appreciate it! 🙏
+### Free services
 
 <a href="https://app.netlify.com/start"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Netlify" /></a>
+
+<a href="https://replit.com/github/nate-games/nate-games.github.io"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg" alt="Replit" /></a>
