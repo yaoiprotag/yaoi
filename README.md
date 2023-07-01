@@ -27,5 +27,4 @@ If you do this, I really appreciate it! 🙏
 ### Free services
 
 <a href="https://app.netlify.com/start"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Netlify" /></a>
-
 <a href="https://replit.com/github/nate-games/nate-games.github.io"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg" alt="Replit" /></a>
