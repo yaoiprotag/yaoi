@@ -22,3 +22,7 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 The game sources were mostly got from Bluemaxima's Flashpoint <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="20" style="vertical-align: middle;">. This is highly recommended for making your own unblocked game site.
 [Download](https://bluemaxima.org/flashpoint/)
 
+# Deployment
+Free services
+Fork repo, then follow the given steps on Netlify.
+<a href=""><img src="https://www.netlify.com/img/deploy/button.svg" alt="Netlify" /></a>
