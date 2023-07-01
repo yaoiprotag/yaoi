@@ -25,4 +25,6 @@ The game sources were mostly got from Bluemaxima's Flashpoint <img src="https://
 # Deployment
 Free services
 Fork repo, then follow the given steps on Netlify. Keep the GitHub fork up to date and Netlify will automatically update the site.
+
+
 <a href="https://app.netlify.com/start"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Netlify" /></a>
