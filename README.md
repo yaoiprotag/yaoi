@@ -10,9 +10,9 @@ A Games Site for school users or people at home. Don't ruin the fun and talk to 
 - How to add a Game: To add a game to this website, fork this repo add a game in the /g/ directory. Go to the "Pull requests" page and press "New pull request". I will go over it to verify your changes, and your game will be added to the website! Learn more [Here](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)https://raw.githubusercontent.com/nate-games/mail/b2fa9249fb8ddadc1c93762e3a03758d0dd92d24/u/0/img/verify.svg
 
 ## OFFICAL Links 🔗
-- [1](https://nate-games.github.io/)<img src="https://raw.githubusercontent.com/nate-games/mail/b2fa9249fb8ddadc1c93762e3a03758d0dd92d24/u/0/img/verify.svg" width="40" style="vertical-align: middle;">
-- [2](https://nate-games2.github.io/)<img src="https://raw.githubusercontent.com/nate-games/mail/b2fa9249fb8ddadc1c93762e3a03758d0dd92d24/u/0/img/verify.svg" width="40" style="vertical-align: middle;">
-- [3](https://nate-games.netlify.app/)<img src="https://raw.githubusercontent.com/nate-games/mail/b2fa9249fb8ddadc1c93762e3a03758d0dd92d24/u/0/img/verify.svg" width="40" style="vertical-align: middle;">
+- [1](https://nate-games.github.io/)<img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="20" style="vertical-align: middle;">
+- [2](https://nate-games2.github.io/)<img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="20" style="vertical-align: middle;">
+- [3](https://nate-games.netlify.app/)<img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="20" style="vertical-align: middle;">
 - Submit your links [Here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform).
 # Game assets <img src="https://static.wikia.nocookie.net/logopedia/images/a/a7/File_Explorer_2019.png/revision/latest?cb=20211010230212" width="40" style="vertical-align: middle;">
 [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, winrar, or Build-in, etc.
