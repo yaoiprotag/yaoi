@@ -1,4 +1,4 @@
-# [NATE-GAMES](https://nate-games.github.io/) <img src="https://nate-games.github.io/0/assets/img/favicon.png" width="40" style="vertical-align: middle;">
+# [nate-games](https://nate-games.github.io/)
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administrator to block this. The website's look design was inspired by [Interstellar](https://github.com/interstellarnetwork/interstellar)
 
 [GPL 3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [🛈](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
