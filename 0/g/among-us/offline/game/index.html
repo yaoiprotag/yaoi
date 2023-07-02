@@ -1,103 +1,27 @@
-<!DOCTYPE html>
 <html>
-
-<head>
-  <title>Among Us | nate-games</title>
-  <link rel="shortcut icon" href="https://media.wired.com/photos/620581d7c228dc232641feaa/master/w_2560%2Cc_limit/Games-Innersloth-Among-Us-Key-Art.jpg" type="image/x-icon">
-  <link rel="stylesheet" href="/0/assets/css/games.css" />
-  <style>
-    .center-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      flex-direction: column;
-    }
-
-    #embed-container {
-      position: relative;
-      width: 1200px;
-      height: 675px;
-    }
-
-    #embed-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    #fullscreen-button {
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      z-index: 9999;
-      border: none;
-      background-color: #000;
-      padding: 10px;
-      cursor: pointer;
-      border-radius: 15px;
-    }
-
-    #fullscreen-icon {
-      fill: #fff;
-      stroke: none;
-      width: 15px;
-      height: 15px;
-    }
-
-    .fullscreen-text {
-      text-align: center;
-      margin-top: 10px;
-    }
-  </style>
-</head>
-
-<body>
-  <header class="header">
-    <div class="logo">
-      <button class="menu-item" onclick="window.location.href='/'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
-    </div>
-    <nav class="menu">
-      <button class="menu-item" onclick="window.location.href='/0/p/'; alert('hello nate-games user:\n\ \n\The soundboard is located under the apps page.');">
-        Proxy
-      </button>
-      <button class="menu-item" onclick="window.location.href='/0/a/'">
-        Apps
-      </button>
-      <button class="menu-item" onclick="window.location.href='/0/g/'">Games</button>
-      <button class="menu-item" onclick="window.location.href='/0/ruffle/'">Flash Opener</button>
-      <button class="menu-item" onclick="alert('hello nate-games user:\n\ \n\The soundboard is located under the apps page.');">Soundboard</button>
-    </nav>
-  </header>
-  <button class="back" onclick="window.location.href='/0/g/'">
-    <-- Back to Games
-  </button>
-  <div class="center-container">
-    <div id="embed-container">
-      <iframe src="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/324525dfg56/99999999@main/amuhus.xml" frameborder="0" allowfullscreen></iframe>
-      <button id="fullscreen-button" onclick="toggleFullscreen()">
-        <svg id="fullscreen-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.00002 3.99998H4.00004L4 9M20 8.99999V4L15 3.99997M15 20H20L20 15M4 15L4 20L9.00002 20" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-    </div>
-  </div>
-  <script>
-    function toggleFullscreen() {
-      const iframe = document.querySelector('iframe');
-      if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-      } else if (iframe.mozRequestFullScreen) {
-        iframe.mozRequestFullScreen();
-      } else if (iframe.webkitRequestFullscreen) {
-        iframe.webkitRequestFullscreen();
-      } else if (iframe.msRequestFullscreen) {
-        iframe.msRequestFullscreen();
+  <head>
+    <meta charset="utf-8" />
+    <title>Among Us Offline | nate-games</title>
+    <link rel="shortcut icon" href="https://images.squarespace-cdn.com/content/v1/5a4c4ea9bff200d1651f1e04/1616180199194-9898XXJUBE8UTNEVIU3F/among-us-icon.jpeg?format=1000w" type="image/x-icon">
+    <style>
+      /* iframe no border fullscreen */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
       }
-    }
-  </script>
-</body>
-
+      iframe {
+        border: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe
+      src="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/324525dfg56/99999999@main/amuhus.xml"
+    ></iframe>
+  </body>
 </html>
