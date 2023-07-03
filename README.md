@@ -1,12 +1,3 @@
-<p><img src="/readme.gif" alt="image wasnt loaded correctly" title="nate-games GIF"></p>
-<video controls>
-  <source src="/trailer.mp4" type="video/mp4">
-</video>
-
-https://github.com/nate-games/nate-games.github.io/assets/131909495/bd20d16e-8b01-4518-bd74-56933d6b0a48
-
-
-
 # nate-games
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administrator to block this. The website's look design was inspired by [Interstellar](https://github.com/interstellarnetwork/interstellar)
 
