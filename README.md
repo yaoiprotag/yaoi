@@ -1,3 +1,4 @@
+<p align="center"> <img src="https://i.imgur.com/x8rtGr4.gif" alt="3D Game Shaders For Beginners" title="3D Game Shaders For Beginners"> </p>
 # nate-games
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administrator to block this. The website's look design was inspired by [Interstellar](https://github.com/interstellarnetwork/interstellar)
 
