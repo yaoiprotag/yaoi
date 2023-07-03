@@ -1,4 +1,4 @@
-<p><img src="" alt="image wasnt loaded correctly" title="nate-games GIF"></p>
+<p><img src="/readme.gif" alt="image wasnt loaded correctly" title="nate-games GIF"></p>
 
 # nate-games
 A Games Site for school users or people at home. Don't ruin the fun and talk to a school administrator to block this. The website's look design was inspired by [Interstellar](https://github.com/interstellarnetwork/interstellar)
