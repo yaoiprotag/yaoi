@@ -1,6 +1,6 @@
 # nate-games
 
-[GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE • [🛈](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
+[GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE) • [🛈](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
 
 ### Links
 the <img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="15" style="vertical-align: middle;"> [Verified] means it is a official link.
