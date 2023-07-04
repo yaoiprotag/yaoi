@@ -1,8 +1,4 @@
 # nate-games
-Want the assets?
-[Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, WinRAR, or Build-in, etc.
-- [7zip Download](https://www.7-zip.org/)
-- [Winrar Download](https://www.win-rar.com/download.html?&L=0)
 
 [GPL 3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [🛈](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
 
@@ -12,6 +8,11 @@ the <img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="15
 - [2](https://nate-games2.github.io/)<img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="15" style="vertical-align: middle;">
 - [3](https://nate-games.netlify.app/)<img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="15" style="vertical-align: middle;">
 - Submit your links [Here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform).
+
+Want the assets?
+[Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, WinRAR, or Build-in, etc.
+- [7zip Download](https://www.7-zip.org/)
+- [Winrar Download](https://www.win-rar.com/download.html?&L=0)
 
 ## Deploying
 If you do this, I really appreciate it! 🙏
