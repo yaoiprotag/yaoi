@@ -2,7 +2,7 @@
 
 
 
-[GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/license.txt#view) • []()
+[GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt#view) • []()
 
 
 ### Links
