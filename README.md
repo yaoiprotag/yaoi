@@ -1,4 +1,4 @@
-<p><img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/ec753042-8f99-4a29-ae97-041366748059" alt="logo"></p>
+<p><img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/ec753042-8f99-4a29-ae97-041366748059" alt="logo" style="height: 50; width: auto;"></p>
 
 
 
