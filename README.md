@@ -1,5 +1,5 @@
 # nate-games
-## Game assets
+### Game assets
 [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, winrar, or Build-in, etc.
 - [7zip Download](https://www.7-zip.org/)
 - [Winrar Download](https://www.win-rar.com/download.html?&L=0)
