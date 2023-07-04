@@ -2,14 +2,14 @@
 
 [GPL 3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.md) • [🛈](https://docs.google.com/document/d/1Kli63OZz99Y0QaoXK4MKlcHudKZEGX351D1we5Ttnrk/edit?usp=sharing)
 
-## Links 🔗
+### Links
 the <img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="15" style="vertical-align: middle;"> [Verified] means it is a official link.
 - [1](https://nate-games.github.io/)<img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="15" style="vertical-align: middle;">
 - [2](https://nate-games2.github.io/)<img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="15" style="vertical-align: middle;">
 - [3](https://nate-games.netlify.app/)<img src="https://cdn-icons-png.flaticon.com/512/9918/9918694.png" width="15" style="vertical-align: middle;">
 - Submit your links [Here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform).
 
-# Deploying
+## Deploying
 If you do this, I really appreciate it! 🙏
 ### Free services
 
