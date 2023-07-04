@@ -7,10 +7,9 @@
 
 ### Links
 the <img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/56a7b78e-845b-47ee-958c-0622f78ac4da" width="15" style="vertical-align: middle;"> [Verified] means it is a official link.
-- [1](https://nate-games.github.io/)<img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/56a7b78e-845b-47ee-958c-0622f78ac4da" width="15" style="vertical-align: middle;">
-- [2](https://nate-games2.github.io/)<img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/56a7b78e-845b-47ee-958c-0622f78ac4da" width="15" style="vertical-align: middle;">
-- [3](https://nate-games.netlify.app/)<img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/56a7b78e-845b-47ee-958c-0622f78ac4da" width="15" style="vertical-align: middle;">
-- <a href="https://nate-games.github.io/">1<img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/56a7b78e-845b-47ee-958c-0622f78ac4da" width="15" style="vertical-align: middle;"></a>
+- [1](https://nate-games.github.io/) <img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/56a7b78e-845b-47ee-958c-0622f78ac4da" width="15" style="vertical-align: middle;">
+- [2](https://nate-games2.github.io/) <img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/56a7b78e-845b-47ee-958c-0622f78ac4da" width="15" style="vertical-align: middle;">
+- [3](https://nate-games.netlify.app/) <img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/56a7b78e-845b-47ee-958c-0622f78ac4da" width="15" style="vertical-align: middle;">
 - Submit your links [Here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform).
 
 Want the assets?
