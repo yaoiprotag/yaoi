@@ -8,7 +8,7 @@
 <h1 align="center">nate-games</h1>
 
 > **Note**
-> **100+ Games & Apps!**
+> **100+ Games & Apps!, You can fork but don't steal all the credit.**
 
 Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
 
