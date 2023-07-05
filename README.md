@@ -34,7 +34,5 @@ Thank you, Bluemaxima's Flashpoint [Provided alot of assets]<img src="https://up
 ## License
 [GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt#view)
 
-<iframe
-  src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
-  style="width:100%; height:300px;"
->k</iframe>
+```html
+<iframe src="https://www.example.com" width="500" height="300"></iframe>
