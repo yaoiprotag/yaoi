@@ -1,7 +1,7 @@
 {
-    "name": "nate-games.github.io",
+    "name": "nate-games",
     "version": "1.0.0",
-    "description": "",
+    "description": "100+ games to play! The best unblocked games website. games, apps, and more!",
     "scripts": {
         "build": "echo \"No build specified\" && exit 1",
         "test": "echo \"No test specified\" && exit 1",
@@ -16,5 +16,5 @@
     "bugs": {
         "url": "https://github.com/nate-games/nate-games.github.io/issues"
     },
-    "homepage": "https://github.com/nate-games/nate-games.github.io#readme"
+    "homepage": "https://github.com/nate-games/nate-games.github.io/blob/main/README.md"
 }
