@@ -12,7 +12,7 @@ If the website is blocked feel free to try some of theese links.
 - [3](https://nate-games.netlify.app/)
 - [4](https://nate-games.repl.co/)
 - [5](web.archive.org/web/https://nate-games.github.io)
-- if these are all blocked please read [Deploying.MD]()
+- All blocked? Read [`deploying.md`](https://github.com/nate-games/nate-games.github.io/blob/main/Deploying.MD)
 
 Want the assets?
 [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, WinRAR, or Build-in, etc.
