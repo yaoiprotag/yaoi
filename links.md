@@ -2,6 +2,7 @@
 - [GitHub](https://nate-games.github.io/)
 - [GitHub 2](https://nate-games2.github.io/)
 - [Netlify](https://nate-games.netlify.app/)
+- [Netlify 2](https://mathskills.netlify.app)
 - [Vercel](https://nate-games.vercel.app)
 - [Vercel 2](https://nate-games2-github-io-git-main-nate-games2.vercel.app)
 - [Vercel 3](https://nate-games2-github-io-nate-games2.vercel.app)
