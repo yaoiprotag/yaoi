@@ -11,6 +11,13 @@ The best unblocked games website. games, apps, proxies, and more!
 > **Note**
 > **100+ Games & Apps!, You can fork but don't steal all the credit. nate-games2 is just my alt account**
 
+# Features
+- 100+ games
+- 10+ apps
+- 
+- 3 unblockers/proxies
+- Soundboard, with sounds & music
+- Clean UI, based off [Interstellar](https://github.com/interstellarnetwork/interstellar)
 Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
 
 All blocked? Check out [`deploying.md`](https://github.com/nate-games/nate-games.github.io/blob/main/deploying.md)
