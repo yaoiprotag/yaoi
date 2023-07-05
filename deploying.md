@@ -9,8 +9,10 @@ If you have deployed it on one of these services send me the link [Here](https:/
 <a href="https://app.cyclic.sh/api/app/deploy/nate-games/nate-games.github.io"><img src="https://camo.githubusercontent.com/607221ca4be547dd929fca7c997a93dfaf1f7b06a1baacaf25b44cf5405c9f91/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f6379636c69632e737667" alt="Cyclic" /></a>
 
 ### Deploying via GitHub Pages
-- Fork the repository. Confused? Learn about Forking a Repo [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
+Fork the
+- Fork the repository. 
 - Name it *username*.github.io
+- To publish it, gollow [these](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch) steps.
 
 ### VSCode via localhost
 
