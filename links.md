@@ -18,4 +18,4 @@ No one has submitted one, if you do have one submit them [here](https://docs.goo
 
 ### CDN
 - [CDN](https://cdn-ngs.netlify.app/)
-- [CDN 2](nate-games.github.io/ng-assets/)
+- [CDN 2](https://nate-games.github.io/ng-assets/)
