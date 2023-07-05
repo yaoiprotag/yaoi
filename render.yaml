@@ -1,5 +1,0 @@
- services:
-  - type: web
-    name: nate-games
-    env: docker
-    plan: free
