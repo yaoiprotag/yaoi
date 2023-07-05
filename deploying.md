@@ -21,5 +21,5 @@ Or paste ```git clone https://github.com/nate-games/nate-games.github.io.git``` 
 - Step 2 - Open VSCode And Install Live Server Extension by Ritwick Dey. ...
 - Step 3 - On the top right press File, Open Folder, Locate the assets you have downloaded, Press Select Folder.
 - Step 4 - Go back to the editor and select ``index.html`` press 'Go Live' on the bottom right...
-- Step 5 - Your browser should automatically open ``127.0.0.1:5500``
+- Step 5 - Your browser should automatically open ``127.0.0.1:5500`` or ``localhost:5500``
 - Step 6 - You will get a ``Cannot GET /home`` simply add ``.html`` to the URL.
