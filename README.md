@@ -1,4 +1,4 @@
-# <p align="center">
+<p align="center">
 <kbd>
 <img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/main/0/assets/img/favicon.png">
 </kbd>
