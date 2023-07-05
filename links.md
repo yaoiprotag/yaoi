@@ -15,3 +15,7 @@ All blocked? Read [`deploying.md`](https://github.com/nate-games/nate-games.gith
 
 ### Community Links
 No one has submitted one, if you do have one submit them [here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform)
+
+### CDN
+- [CDN](https://cdn-ngs.netlify.app/)
+- [CDN 2](nate-games.github.io/ng-assets/)
