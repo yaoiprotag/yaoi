@@ -18,6 +18,7 @@ The best unblocked games website. games, apps, proxies, and more!
 - 3 unblockers/proxies
 - Soundboard, with sounds & music
 - Clean UI, based off [Interstellar](https://github.com/interstellarnetwork/interstellar)
+
 Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
 
 All blocked? Check out [`deploying.md`](https://github.com/nate-games/nate-games.github.io/blob/main/deploying.md)
