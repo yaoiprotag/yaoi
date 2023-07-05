@@ -12,7 +12,7 @@ If you have deployed it on one of these services send me the link [Here](https:/
 Fork the
 - Fork the repository. 
 - Name it *username*.github.io
-- To publish it, gollow <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch" target="_blank">these</a> steps.
+- To publish it, follow <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch" target="_blank">these</a> steps.
 
 ### VSCode via localhost
 
