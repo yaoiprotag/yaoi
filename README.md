@@ -1,5 +1,5 @@
 # <a href="https://nate-games.github.io/home"><img src="https://github.com/nate-games/nate-games.github.io/assets/131909495/ec753042-8f99-4a29-ae97-041366748059" alt="logo" style="height: auto; width: 300px;" title="play"></a>
-> **Surprisingly**
+> **Note**
 > **100+ Games & Apps!**
 
 Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
