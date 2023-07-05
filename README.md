@@ -34,4 +34,6 @@ if your bored or interested read this.
 ### Game Sources
 The game sources were mostly got from Bluemaxima's Flashpoint <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="20" style="vertical-align: middle;">. This is highly recommended for making your own unblocked game site.
 [Download](https://bluemaxima.org/flashpoint/)
-<a href="https://www.youtube.com/@n4t3_?sub_confirmation=1"><img src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/main/0/assets/img/yt.png" alt="Follow on YT" style="height: 35px; width: auto;"/></a><a href="https://github.com/nate-games">
+
+### Socials
+- Youtube: <a href="https://www.youtube.com/@n4t3_?sub_confirmation=1"><img src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/main/0/assets/img/yt.png" alt="Follow on YT" style="height: 35px; width: auto;"/></a><a href="https://github.com/nate-games">
