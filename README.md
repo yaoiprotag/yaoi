@@ -6,6 +6,7 @@
 </p>
 
 <h1 align="center">nate-games</h1>
+The best unblocked games website. games, apps, proxies, and more!
 
 > **Note**
 > **100+ Games & Apps!, You can fork but don't steal all the credit. nate-games2 is just my alt account**
