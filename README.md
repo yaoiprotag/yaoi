@@ -33,6 +33,3 @@ Thank you, Bluemaxima's Flashpoint [Provided alot of assets]<img src="https://up
 
 ## License
 [GPL-3.0 License](https://github.com/nate-games/nate-games.github.io/blob/main/LICENSE.txt#view)
-
-```html
-<iframe src="https://www.example.com" width="500" height="300"></iframe>

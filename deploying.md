@@ -15,11 +15,14 @@ If you have deployed it on one of these services send me the link [Here](https:/
 ### Command Prompt
 I havent made instructions for this yet.
 ### VSCode
-Before you do this [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) nate-games assets. 
-Or paste ```git clone https://github.com/nate-games/nate-games.github.io.git``` in your Command Prompt.
-- Step 1 - Download And Install Visual Studio Code. Get your VSCode editor ready. ...
-- Step 2 - Open VSCode And Install Live Server Extension by Ritwick Dey. ...
-- Step 3 - On the top right press File, Open Folder, Locate the assets you have downloaded, Press Select Folder.
-- Step 4 - Go back to the editor and select ``index.html`` press 'Go Live' on the bottom right...
-- Step 5 - Your browser should automatically open ``127.0.0.1:5500`` or ``localhost:5500``
-- Step 6 - You will get a ``Cannot GET /home`` simply add ``.html`` to the URL.
+
+Before you do this, [download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) Nate Games' assets. 
+
+Alternatively, paste `git clone https://github.com/nate-games/nate-games.github.io.git` in your Command Prompt.
+
+- Step 1: Download and Install Visual Studio Code. Get your VSCode editor ready.
+- Step 2: Open VSCode and Install Live Server Extension by Ritwick Dey.
+- Step 3: On the top right, click File, Open Folder, and locate the assets you have downloaded. Then, click Select Folder.
+- Step 4: Go back to the editor and select `index.html`, then click 'Go Live' on the bottom right.
+- Step 5: Your browser should automatically open `127.0.0.1:5500` or `localhost:5500`.
+- Step 6: If you get a "Cannot GET /home" error, simply add `.html` to the URL.
