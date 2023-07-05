@@ -3,7 +3,7 @@ If you do this, I really appreciate it! 🙏
 
 If you have deployed it on one of these services send me the link [Here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform)
 ### Free services
-Do not try other services because these are the only ones supported by nate-games.
+Do not try other services because these are the only ones supported by nate-games, i havent tried paid services though.
 
 <a href="https://app.netlify.com/start"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Netlify" /></a>
 <a href="https://replit.com/@nate-games/nate-games?v=1"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg" alt="Replit" /></a>
