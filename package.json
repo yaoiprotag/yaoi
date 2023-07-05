@@ -12,9 +12,9 @@
         "url": "git+https://github.com/nate-games/nate-games.github.io.git"
     },
     "author": "nate-games",
-    "license": "ISC",
+    "license": "GPL-3.0 License",
     "bugs": {
-        """url": "https://github.com/nate-games/nate-games.github.io/issues"
+        "url": "https://github.com/nate-games/nate-games.github.io/issues"
     },
     "homepage": "https://github.com/nate-games/nate-games.github.io#readme"
 }
