@@ -32,3 +32,6 @@ If you do this, I really appreciate it! 🙏
 ## Game Sources
 The game sources were mostly got from Bluemaxima's Flashpoint <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/BlueMaxima%27s_Flashpoint_logo_-_inverted.svg/2048px-BlueMaxima%27s_Flashpoint_logo_-_inverted.svg.png" width="20" style="vertical-align: middle;">. This is highly recommended for making your own unblocked game site.
 [Download](https://bluemaxima.org/flashpoint/)
+
+## Other
+<a href="https://app.netlify.com/start"><img src="https://cdn.pixabay.com/photo/2020/07/15/21/04/subscribe-5408999_1280.png" alt="Follow on YT" /></a>
