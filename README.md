@@ -3,14 +3,7 @@
 > **100+ games!**
 <a href="https://www.youtube.com/@n4t3_?sub_confirmation=1"><img src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/main/0/assets/img/yt.png" alt="Follow on YT" style="height: 35px; width: auto; vertical-align: middle;"/></a><a href="https://github.com/nate-games">
 
-### Links
-If the website is blocked feel free to try some of theese links.
-- [l-1](https://nate-games.github.io/)
-- [l-2](https://nate-games2.github.io/)
-- [l-3](https://nate-games.netlify.app/)
-- [l-4](https://nate-games.repl.co/)
-- [l-5](web.archive.org/web/https://nate-games.github.io)
-- All blocked? Read [`deploying.md`](https://github.com/nate-games/nate-games.github.io/blob/main/Deploying.MD)
+Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
 
 Want the assets?
 [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) the files from then extract the zip file 📁 using 7zip, WinRAR, or Build-in, etc.
