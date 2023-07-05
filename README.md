@@ -14,7 +14,7 @@ The best unblocked games website. games, apps, proxies, and more!
 # Features
 - 100+ games
 - 10+ apps
-- 
+- 5+ unblocked websites, with easy deployment
 - 3 unblockers/proxies
 - Soundboard, with sounds & music
 - Clean UI, based off [Interstellar](https://github.com/interstellarnetwork/interstellar)
