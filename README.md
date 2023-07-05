@@ -34,4 +34,4 @@ The game sources were mostly got from Bluemaxima's Flashpoint <img src="https://
 [Download](https://bluemaxima.org/flashpoint/)
 
 ## Other
-<a href="https://app.netlify.com/start"><img src="https://cdn.pixabay.com/photo/2020/07/15/21/04/subscribe-5408999_1280.png" alt="Follow on YT" /></a>
+<a href="https://app.netlify.com/start"><img src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/main/0/assets/img/yt.svg" alt="Follow on YT" /></a>
