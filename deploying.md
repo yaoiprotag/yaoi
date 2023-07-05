@@ -16,8 +16,7 @@ If you have deployed it on one of these services send me the link [Here](https:/
 I havent made instructions for this yet.
 ### VSCode
 Before you do this [Download](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) nate-games assets. 
-OR with git, paste
-```git clone https://github.com/nate-games/nate-games.github.io.git``` in your Command Prompt or Git Bash. This requires [git](https://git-scm.com/downloads) installed on your computer.
+Or paste ```git clone https://github.com/nate-games/nate-games.github.io.git``` in your Command Prompt.
 - Step 1 - Download And Install Visual Studio Code. Get your VSCode editor ready. ...
 - Step 2 - Open VSCode And Install Live Server Extension by Ritwick Dey. ...
 - Step 3 - Go back to the editor and select ```index.html``` press 'Go Live' on the bottom right...
