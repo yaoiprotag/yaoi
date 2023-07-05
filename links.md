@@ -3,11 +3,9 @@
 - [GitHub 2](https://nate-games2.github.io/)
 - [Netlify](https://nate-games.netlify.app/)
 - [Vercel](https://nate-games.vercel.app)
-- [Vercel 2](https://nate-games2-github-8p33zrf70-nate-games2.vercel.app)
-- [Vercel 3](https://nate-games2-github-io-git-main-nate-games2.vercel.app)
-- [Vercel 4](https://nate-games2-github-io-nate-games2.vercel.app)
-- [Vercel 5](https://nate-games-git-main-nate-games2.vercel.app)
-- [Vercel 6](https://nate-games-9ioqknl5q-nate-games2.vercel.app)
+- [Vercel 2](https://nate-games2-github-io-git-main-nate-games2.vercel.app)
+- [Vercel 3](https://nate-games2-github-io-nate-games2.vercel.app)
+- [Vercel 4](https://nate-games-git-main-nate-games2.vercel.app)
 - [Replit](https://nate-games.repl.co/)
 
 Vercel doesnt support /home links so you will need to add .html for a few pages.
