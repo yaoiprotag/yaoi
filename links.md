@@ -7,7 +7,6 @@
 - [Vercel 2](https://nate-games2-github-io-git-main-nate-games2.vercel.app)
 - [Vercel 3](https://nate-games2-github-io-nate-games2.vercel.app)
 - [Vercel 4](https://nate-games-git-main-nate-games2.vercel.app)
-- [Replit](https://nate-games.repl.co/)
 
 Vercel doesnt support /home links so you will need to add .html for a few pages.
 
@@ -15,6 +14,10 @@ All blocked? Read [`deploying.md`](https://github.com/nate-games/nate-games.gith
 
 ### Community Links
 No one has submitted one, if you do have one submit them [here](https://docs.google.com/forms/d/e/1FAIpQLSeHFEk4rR1r98SnzdBStOPvv4zAr2OG-RkuajaafaFumVeHlQ/viewform)
+
+### Embeds
+Sites that have my website embedded.
+- [Replit](https://nate-games.repl.co/)
 
 ### CDN
 - [CDN](https://cdn-ngs.netlify.app/)
