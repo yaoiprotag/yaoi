@@ -23,6 +23,8 @@ Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.githu
 
 All blocked? Check out [`deploying.md`](https://github.com/nate-games/nate-games.github.io/blob/main/deploying.md)
 
+Offline? Check out [`offline.md`](https://github.com/nate-games/nate-games.github.io/blob/main/offline.md)
+
 ### Contributing
 
 - To add a game to this website, fork this repo add a game in the /g/ directory. Go to the "Pull requests" page and press "New pull request". I will go over it to verify your changes, and your game will be added to the website! Learn more [Here](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
