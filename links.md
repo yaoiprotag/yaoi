@@ -7,6 +7,8 @@
 - [Vercel 2](https://nate-games2-github-io-git-main-nate-games2.vercel.app)
 - [Vercel 3](https://nate-games2-github-io-nate-games2.vercel.app)
 - [Vercel 4](https://nate-games-git-main-nate-games2.vercel.app)
+#### Shortened URLs
+- [Bitly](https://bit.ly/nate-games)
 
 Vercel doesnt support /home links so you will need to add .html for a few pages.
 

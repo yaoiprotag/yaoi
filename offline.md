@@ -2,7 +2,7 @@
 
 Please make sure you have [Node.js](https://nodejs.org/en/download) installed.
 
-Download nate-games. by Going to Code, [Download ZIP]([https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip]) Or just press the link it will download. Extract the ZIP File. Open you command prompt type `CD <path>` make sure you replace the "<path>". press enter then paste `npm install electron --save-dev`. The next is simple, Paste `npm run start`. You can play from there or package the project.
+Download nate-games. by Going to Code, [Download ZIP](https://github.com/nate-games/nate-games.github.io/archive/refs/heads/main.zip) Or just press the link it will download. Extract the ZIP File. Open you command prompt type `CD <path>` make sure you replace the "<path>". press enter then paste `npm install electron --save-dev`. The next is simple, Paste `npm run start`. You can play from there or package the project.
 
 ### Packaging
 
