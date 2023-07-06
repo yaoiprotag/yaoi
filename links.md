@@ -4,8 +4,8 @@
 - [Netlify](https://nate-games.netlify.app/)
 - [Netlify 2](https://mathskills.netlify.app)
 - [Vercel](https://nate-games.vercel.app)
-- [Vercel 2](https://nate-games2-github-io-git-main-nate-games2.vercel.app)
-- [Vercel 3](https://nate-games2-github-io-nate-games2.vercel.app)
+- [Vercel 2](https://learn-science.vercel.app/)
+- [Vercel 3](https://math-edu.vercel.app/)
 - [Vercel 4](https://nate-games-git-main-nate-games2.vercel.app)
 #### Shortened URLs
 - [Bitly](https://bit.ly/nate-games)
