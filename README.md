@@ -12,11 +12,10 @@
 > **100+ Games & Apps!, You can fork but don't steal all the credit. nate-games2 is just my alt account**
 
 # Features
-- 100+ games
-- 10+ apps
-- 10+ unblocked websites, with easy deployment
+- 110+ games & apps
+- 14+ backup websites incase of blockage
 - 3 unblockers/proxies
-- Soundboard with sounds & musicc
+- Soundboard with sounds & music
 - Clean UI
 - Neon/Cyberpunk styled Homepage
 
