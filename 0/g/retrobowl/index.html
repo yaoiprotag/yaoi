@@ -1,91 +1,102 @@
-
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        
-      <link rel="icon" sizes="192x192" href="img/icon.jpg">
-      <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon"/>
-      <link rel="apple-touch-icon" href="img/icon.jpg" type="image/x-icon"/>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
-        <title>Retro Bowl | 3kh0</title>
-        
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta content="https://3kh0.github.io/retro-bowl" property="og:url" />
-   <meta content="img/icon.jpg" property="og:image" />
-   <meta content="#000000" data-react-helmet="true" name="theme-color" />
-   <meta name="title" content="3kh0.github.io">
-   <meta name="description" content="Retro Bowl is an American style football game created by New Star Games. Are you ready to manage your dream team into victory? Be the boss of your NFL franchise, expand your roster, take care of your press duties to keep your team and fans happy.">
-   <meta name="keywords" content="games, ad blocker, trolls, unblocked games, web games, online games, fun, tags">
-   <meta name="robots" content="index, follow">
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <meta name="language" content="English">
-   <meta name="revisit-after" content="1 days">
-   <meta name="author" content="3kh0">
+<html>
 
-        <!-- Set the background colour of the document -->
-        <style>
-            body {
-              background: #0;
-              margin: 0px;
-              padding: 0px;
-              border: 0px;
-            }
-            canvas {
-                      image-rendering: optimizeSpeed;
-                      -webkit-interpolation-mode: nearest-neighbor;
-                      -ms-touch-action: none;
-                      margin: 0px;
-                      padding: 0px;
-                      border: 0px;
-            }
-            :-webkit-full-screen #canvas {
-                 width: 100%;
-                 height: 100%;
-            }
-            div.gm4html5_div_class
-            {
-              margin: 0px;
-              padding: 0px;
-              border: 0px;
-            }
-            /* START - Login Dialog Box */
-            div.gm4html5_login
-            {
-                 padding: 20px;
-                 position: absolute;
-                 border: solid 2px #000000;
-                 background-color: #404040;
-                 color:#00ff00;
-                 border-radius: 15px;
-                 box-shadow: #101010 20px 20px 40px;
-            }
-            div.gm4html5_cancel_button
-            {
-                 float: right;
-            }
-            div.gm4html5_login_button
-            {
-                 float: left;
-            }
-            div.gm4html5_login_header
-            {
-                 text-align: center;
-            }
-            .game{
-                 margin-left: auto;
-                 margin-right: auto;
-            }
-            /* END - Login Dialog Box */
-            :-webkit-full-screen {
-               width: 100%;
-               height: 100%;
-            }
-        </style>
-    </head>
+<head>
+  <title>Retro Bowl | nate-games</title>
+  <link rel="icon" type="image/png" href="https://play-lh.googleusercontent.com/WRM5Y1xZmzcCP1YtO5zl6G2g7CU5c5ZfjX4UVrgi1bpNgkfy-wuB-bQx3kkeRfaGYQ" />
+  <link rel="stylesheet" href="/0/assets/css/games.css" />
+  <style>
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
 
-    <body>
-        <h1>Retro Bowl</h1>
-        <iframe class="game" width="960" height="540" scrolling="no" frameborder="0" allowtransparency="true" src="https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/226112567625258737/files/index.html"></iframe>
-    </body>
+    #embed-container {
+      position: relative;
+      width: 1200px;
+      height: 675px;
+    }
+
+    #embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #fullscreen-button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 9999;
+      border: none;
+      background-color: #000;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 15px;
+    }
+
+    #fullscreen-icon {
+      fill: #fff;
+      stroke: none;
+      width: 15px;
+      height: 15px;
+    }
+
+    .fullscreen-text {
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <button class="menu-item" onclick="window.location.href='/'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
+    </div>
+    <nav class="menu">
+      <button class="menu-item" onclick="window.location.href='/0/g/'">Games</button>
+      <button class="menu-item" onclick="window.location.href='/0/a/'">
+        Apps
+      </button>
+      <button class="menu-item" onclick="window.location.href='/0/ruffle/'">Flash Opener</button>
+    </nav>
+  </header>
+  <button class="back" onclick="window.location.href='/0/g/'">
+    <-- Back to Games
+  </button>
+  <div class="center-container">
+    <div id="embed-container">
+      <iframe src="./game/" frameborder="0" allowfullscreen></iframe>
+      <button id="fullscreen-button" onclick="toggleFullscreen()">
+        <svg id="fullscreen-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.00002 3.99998H4.00004L4 9M20 8.99999V4L15 3.99997M15 20H20L20 15M4 15L4 20L9.00002 20" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    <div class="fullscreen-text">
+      Fullscreen Glitched? Play <a href="./game/" target="_self" style="color: blue;">Here</a>
+    </div>
+  </div>
+  <script>
+    function toggleFullscreen() {
+      const iframe = document.querySelector('iframe');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      }
+    }
+  </script>
+</body>
+
 </html>
