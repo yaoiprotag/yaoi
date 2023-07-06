@@ -16,7 +16,7 @@
 - 10+ apps
 - 10+ unblocked websites, with easy deployment
 - 3 unblockers/proxies
-- Soundboard, with sounds & music
+- Soundboard with sounds & musicc
 - Clean UI, based off [Interstellar](https://github.com/interstellarnetwork/interstellar)
 
 Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
