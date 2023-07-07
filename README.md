@@ -13,7 +13,8 @@
 
 # Features
 - 130+ games & apps
-- 10+ unblocked websites, with easy deployment
+- 10+ unblocked websites
+- Easy Deployment
 - 3 unblockers/proxies
 - Soundboard with sounds & music
 - Clean UI
