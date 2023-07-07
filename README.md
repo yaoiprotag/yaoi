@@ -9,7 +9,7 @@
 <p align="center">The best unblocked games website. games, apps, proxies, and more!</p>
 
 > **Note**
-> **100+ Games & Apps!, You can fork but don't steal all the credit. nate-games2 is just my alt account**
+> **130+ Games & Apps!, You can fork but don't steal all the credit. nate-games2 is just my alt account**
 
 # Features
 - 130+ games & apps
