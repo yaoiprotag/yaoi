@@ -12,11 +12,13 @@
 > **100+ Games & Apps!, You can fork but don't steal all the credit. nate-games2 is just my alt account**
 
 # Features
-- 130+ games & apps
+- 100+ games
+- 10+ apps
 - 10+ unblocked websites, with easy deployment
 - 3 unblockers/proxies
-- Soundboard with sounds & musicc
-- Clean UI, based off [Interstellar](https://github.com/interstellarnetwork/interstellar)
+- Soundboard with sounds & music
+- Clean UI
+- Neon/Cyberpunk styled Homepage
 
 Website blocked? See [`links.md`](https://github.com/nate-games/nate-games.github.io/blob/main/links.md)
 
