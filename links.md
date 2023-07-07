@@ -22,6 +22,7 @@ No one has submitted one, if you do have one submit them [here](https://docs.goo
 ### Embeds
 Sites that have my website embedded.
 - [Replit](https://nate-games.repl.co/)
+- [Itch.io](https://nate-games.itch.io/play)
 
 ### CDN
 - [CDN](https://cdn-ngs.netlify.app/)
