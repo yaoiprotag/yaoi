@@ -7,7 +7,8 @@ Download nate-games. by Going to Code, [Download ZIP](https://github.com/nate-ga
 make sure you replace the "<path>". press enter then paste 
 ``` bash
 npm install electron --save-dev
-```. The next is simple, Paste
+```
+Then, Paste
 ``` bash
 npm run start
 ```
