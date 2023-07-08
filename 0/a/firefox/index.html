@@ -1,77 +1,99 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
   <title>Firefox | nate-games</title>
-  <link rel="shortcut icon" href="./splash.webp" type="image/x-icon">
+  <link rel="icon" type="image/png" href="./splash.webp" />
+  <link rel="stylesheet" href="../../assets/css/games.css" />
   <style>
-    body {
-      font-family: Calibri, sans-serif;
-      background-color: black;
-      color: white;
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
     }
-    .redirect-button {
-      padding: 5px 10px;
-      background-color: #4287f5; /* Blue color */
-      color: white;
-      text-decoration: none;
-      font-size: 12px; /* Smaller font size */
-      border: 1px solid black; /* Black border */
-      border-radius: 10px; /* Smaller border radius */
+
+    #embed-container {
+      position: relative;
+      width: 1200px;
+      height: 675px;
+    }
+
+    #embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #fullscreen-button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 9999;
+      border: none;
+      background-color: #000;
+      padding: 10px;
       cursor: pointer;
-      font-family: Calibri, sans-serif; /* Added font-family */
-      font-weight: bold; /* Added font-weight */
-      transition: font-size 0.3s, border-width 0.3s; /* Transition for font-size and border-width */
+      border-radius: 15px;
     }
-    .redirect-button:hover {
-      font-size: 10px; /* Smaller font size on hover */
-      border-width: 0.5px; /* Thinner border on hover */
+
+    #fullscreen-icon {
+      fill: #fff;
+      stroke: none;
+      width: 15px;
+      height: 15px;
     }
-    .redirect-text {
-      display: inline-block;
-      margin-right: 10px;
-      font-family: Calibri, sans-serif; /* Added font-family */
-    }
-    #countdown {
-      font-weight: normal; /* Removed bold font-weight */
-    }
-    #redirect-message {
-      font-weight: normal; /* Removed bold font-weight */
+
+    .fullscreen-text {
+      text-align: center;
+      margin-top: 10px;
     }
   </style>
-  <script type="text/javascript">
-    function countdown() {
-      var seconds = 5;
-      var redirectButton = document.getElementById("redirectButton");
-      redirectButton.style.display = "none";
-
-      var countdownInterval = setInterval(function() {
-        seconds--;
-        if (seconds <= 0) {
-          clearInterval(countdownInterval);
-          redirectToURL();
-        } else {
-          document.getElementById("countdown").innerHTML = seconds;
-        }
-      }, 1000);
-
-      setTimeout(function() {
-        redirectButton.style.display = "inline";
-      }, 5000);
-    }
-
-    function redirectToURL() {
-      window.location.href = "https://replit.com/@IsabellaDuckwor/Firefox-110?v=1&outputonly=1&lite=true";
-    }
-
-    window.onload = function() {
-      countdown();
-      document.getElementById("redirectButton").style.display = "inline";
-    };
-  </script>
 </head>
+
 <body>
-  <p id="redirect-message"><span class="redirect-text">You will be redirected in <span id="countdown">5</span> seconds.</span></p>
-  <p><span class="redirect-text">If you aren't redirected, </span><button id="redirectButton" class="redirect-button" onclick="redirectToURL()">Click Here</button></p>
+  <header class="header">
+    <div class="logo">
+      <button class="menu-item" onclick="window.location.href='/'">𝗡𝗮𝘁𝗲-𝗴𝗮𝗺𝗲𝘀</button>
+    </div>
+    <nav class="menu">
+      <button class="menu-item" onclick="window.location.href='/0/g/'">Games</button>
+      <button class="menu-item" onclick="window.location.href='/0/a/'">
+        Apps
+      </button>
+      <button class="menu-item" onclick="window.location.href='/0/ruffle/'">Flash Opener</button>
+    </nav>
+  </header>
+  <button class="back" onclick="window.location.href='/0/a/'">
+    <-- Back to Apps
+  </button>
+  <div class="center-container">
+    <div id="embed-container">
+      <iframe src="https://replit.com/@IsabellaDuckwor/Firefox-110?v=1&outputonly=1&lite=true" frameborder="0" allowfullscreen></iframe>
+      <button id="fullscreen-button" onclick="toggleFullscreen()">
+        <svg id="fullscreen-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.00002 3.99998H4.00004L4 9M20 8.99999V4L15 3.99997M15 20H20L20 15M4 15L4 20L9.00002 20" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script>
+    function toggleFullscreen() {
+      const iframe = document.querySelector('iframe');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      }
+    }
+  </script>
 </body>
+
 </html>
