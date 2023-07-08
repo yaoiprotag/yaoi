@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Source Viewer</title>
+    <script>
+      function createLink() {
+        var url = document.getElementById("urlInput").value;
+        var viewSourceUrl = "view-source:" + url.replace("https://", "http://");
+        var linkTextArea = document.getElementById("linkTextArea");
+        linkTextArea.value = viewSourceUrl;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>URL Source Viewer</h1>
+
+    <input type="text" id="urlInput" placeholder="Enter URL" />
+    <button onclick="createLink()">Create Link</button>
+    
+    <textarea id="linkTextArea" rows="4" cols="50" readonly></textarea>
+  </body>
+</html>
