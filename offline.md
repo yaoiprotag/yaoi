@@ -17,4 +17,8 @@ npm run start
 
 Assuming you have Node.js installed based on the first step.
 
-This will not work unless you completed the first step. Run ```npx electron-packager . nate-games --platform=win32 --arch=x64 --out=./ --app-version=1.0.0 --version-string.ProductName="nate-games" --version-string.CompanyName="nate-games" ```. This will save a folder open it and run `nate-games.exe`. Enjoy!
+This will not work unless you completed the first step. Run 
+``` bash
+npx electron-packager . nate-games --platform=win32 --arch=x64 --out=./ --app-version=1.0.0 --version-string.ProductName="nate-games" --version-string.CompanyName="nate-games"
+```
+This will save a folder open it and run `nate-games.exe`. Enjoy!
