@@ -1,6 +1,5 @@
 ### Official Links
 - [GitHub](https://nate-games.github.io/)
-- [GitHub 2](https://nate-games2.github.io/)
 - [Netlify](https://nate-games.netlify.app/)
 - [Netlify 2](https://mathskills.netlify.app)
 - [Netlify 3](https://school-tutor.netlify.app/)
